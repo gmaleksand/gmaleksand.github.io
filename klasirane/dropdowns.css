@@ -6,8 +6,10 @@ body {
             font-family:  "Georgia", Georgia, serif;
             font-size: 16px;
             color: white;}
-#myTable tr:not([style*="display: none;"]):nth-of-type(even) {background-color: #222;}
-#myTable tr:hover {background-color: #444;}
+
+#myTable tr:nth-child(even) {background-color: #222;}
+#myTable tr:hover {background-color: #444 !important;}
+
 
 
 .dropbtn {
@@ -44,3 +46,5 @@ body {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.dropdown-content .selected_option {background-color: #585}

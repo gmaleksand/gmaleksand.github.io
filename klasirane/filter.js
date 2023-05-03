@@ -10,11 +10,16 @@ function grade(num) {
       var compare = (txtValue == num)||(num == 0)||(num == 13 && txtValue >13);
 
       if (compare) {
-        tr[i].style.display = "";
-        tr[i].class = ""
-      } else {
+        tr[i].className = tr[i].className.replace("grade_mismatch","");
+        if (tr[i].className.search('_mismatch') == -1){
+          tr[i].style.display = "";
+        }
+      }
+      else {
         tr[i].style.display = "none";
-        tr[i].class = "blocked"
+        if (tr[i].className.search('grade_mismatch') == -1){
+          tr[i].className += " grade_mismatch";
+        }
       }
     }
   }
@@ -36,12 +41,15 @@ function school(str){
         compare = !['СМГ', 'НПМГ', 'ПЧМГ','АК','МГ “Д-р Петър Берон“','ППМГ “Акад. Н. Обрешков“','ППМГ “Акад. Иван Ценов“','МГ “Гео Милев“','МГ “Акад. Кирил Попов“','ППМГ “Никола Обрешков“'].includes(txtValue);
       }
       if (compare) {
-        tr[i].style.display = "";
-        tr[i].class = ""
-
+        tr[i].className = tr[i].className.replace("school_mismatch","");
+        if (tr[i].className.search('_mismatch') == -1){
+          tr[i].style.display = "";
+        }
       } else {
         tr[i].style.display = "none";
-        tr[i].class = "blocked"
+        if (tr[i].className.search('school_mismatch') == -1){
+          tr[i].className += " school_mismatch";
+        }
       }
     }
   }
@@ -63,11 +71,15 @@ function city(str){
         compare = !['София','Варна','Бургас','Плевен','Враца','Пловдив','Казанлък','Габрово','Велико Търново','Русе','Сливен','Добрич','Благоевград','Козлодуй','Ямбол','Стара Загора','Гоце Делчев','Видин','Силистра','Шумен','Кюстендил','Перник'].includes(txtValue);
       }
       if (compare) {
-        tr[i].style.display = "";
-        tr[i].class = ""
+        tr[i].className = tr[i].className.replace("city_mismatch","");
+        if (tr[i].className.search('_mismatch') == -1){
+          tr[i].style.display = "";
+        }
       } else {
         tr[i].style.display = "none";
-        tr[i].class = "blocked"
+        if (tr[i].className.search('city_mismatch') == -1){
+          tr[i].className += " city_mismatch";
+        }
       }
     }
   }
@@ -82,9 +94,10 @@ function search(query) {
     td = tr[i].getElementsByTagName("td")[0];
     if (td) {
       txtValue = td.textContent || td.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1 && tr[i].class != 'blocked') {
+      if (txtValue.toUpperCase().indexOf(filter) > -1 && tr[i].className.search('_mismatch') == -1) {
         tr[i].style.display = "";
-      } else {
+      }
+      else {
         tr[i].style.display = "none";
       }
     }       
