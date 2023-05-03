@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Класиране</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="sorttable.js"></script> 
+<script src="load_table.js"></script>
+<script src="filter.js"></script>
+<link rel="stylesheet" href="dropdowns.css"> 
+</head>
+<body>
+
+
+
+
+<table id="myTable" class="sortable">
+  <tr>
+    <th class="dropdown">Име
+    <span>&#x25A0;</span>
+    <div class="dropdown-content">
+        <input type="text" id="myInput" onkeyup="search(this.value)" placeholder="Search for names.." title="Type in a name">
+    </div>
+    </th>
+    <th class="dropdown">
+    Клас
+    <span>&#x25A0;</span>
+    <div class="dropdown-content">
+        <a onclick="grade(0)" href="#">Всички</a>
+        <a onclick="grade(7)" href="#">7</a>
+        <a onclick="grade(8)" href="#">8</a>
+        <a onclick="grade(9)" href="#">9</a>
+        <a onclick="grade(10)" href="#">10</a>
+        <a onclick="grade(11)" href="#">11</a>
+        <a onclick="grade(12)" href="#">12</a>
+        <a onclick="grade(13)" href="#">13 - 16</a>
+    </div>
+    </th><th class="dropdown">Училище
+    <span>&#x25A0;</span>
+    <div class="dropdown-content">
+        <a onclick="school(0)" href="#">Всички</a>
+        <a onclick="school('СМГ')" href="#">СМГ</a>
+        <a onclick="school('НПМГ')" href="#">НПМГ</a>
+        <a onclick="school('ПЧМГ')" href="#">ПЧМГ</a>
+        <a onclick="school('АК')" href="#">АК</a>
+        <a onclick="school('МГ “Д-р Петър Берон“')" href="#">МГ “Д-р Петър Берон“</a>
+        <a onclick="school('ППМГ “Акад. Н. Обрешков“')" href="#">ППМГ “Акад. Н. Обрешков“</a>
+        <a onclick="school('МГ “Гео Милев“')" href="#">МГ “Гео Милев“</a>
+        <a onclick="school('МГ “Акад. Кирил Попов“')" href="#">МГ “Акад. Кирил Попов“</a>
+        <a onclick="school('ППМГ “Никола Обрешков“')" href="#">ППМГ “Никола Обрешков“ (К)</a>
+        <a onclick="school(-1)" href="#">Други</a>
+    </div>
+    </th><th class="dropdown">Град
+    <span>&#x25A0;</span>
+    <div class="dropdown-content">
+        <a onclick="city(0)" href="#">Всички</a>
+        <a onclick="city('София')" href="#">София</a>
+        <a onclick="city('Варна')" href="#">Варна</a>
+        <a onclick="city('Бургас')" href="#">Бургас</a>
+        <a onclick="city('Плевен')" href="#">Плевен</a>
+        <a onclick="city('Враца')" href="#">Враца</a>
+        <a onclick="city('Пловдив')" href="#">Пловдив</a>
+        <a onclick="city('Казанлък')" href="#">Казанлък</a>
+        <a onclick="city('Габрово')" href="#">Габрово</a>
+        <a onclick="city('Велико Търново')" href="#">Велико Търново</a>
+        <a onclick="city('Русе')" href="#">Русе</a>
+        <a onclick="city('Сливен')" href="#">Сливен</a>
+        <a onclick="city('Добрич')" href="#">Добрич</a>
+        <a onclick="city('Благоевград')" href="#">Благоевград</a>
+        <a onclick="city('Козлодуй')" href="#">Козлодуй</a>
+        <a onclick="city('Ямбол')" href="#">Ямбол</a>
+        <a onclick="city('Стара Загора')" href="#">Стара Загора</a>
+        <a onclick="city('Гоце Делчев')" href="#">Гоце Делчев</a>
+        <a onclick="city('Видин')" href="#">Видин</a>
+        <a onclick="city('Силистра')" href="#">Силистра</a>
+        <a onclick="city('Шумен')" href="#">Шумен</a>
+        <a onclick="city('Кюстендил')" href="#">Кюстендил</a>
+        <a onclick="city('Перник')" href="#">Перник</a>
+        <a onclick="city(-1)" href="#">Други</a>
+    </div>
+    </th>
+    <th>О2023
+    <span>&#x25A0;</span>
+    </th>
+    <th>П2023
+    <span>&#x25A0;</span>
+    </th>
+    <th>Е2022
+    <span>&#x25A0;</span>
+    </th>
+    <th>О2022
+    <span>&#x25A0;</span>
+    </th>
+    <th>П2022
+    <span>&#x25A0;</span>
+    </th>
+    <th>Е2021
+    <span>&#x25A0;</span>
+    </th>
+    <th>О2021
+    <span>&#x25A0;</span>
+    </th>
+    <th>П2021
+    <span>&#x25A0;</span>
+    </th>
+    <th>Е2020
+    <span>&#x25A0;</span>
+    </th>
+    <th>О20230
+    <span>&#x25A0;</span>
+    </th>
+    <th>П2020
+    <span>&#x25A0;</span>
+    </th>
+    <th>Е2019
+    <span>&#x25A0;</span>
+    </th>
+    <th>О2019
+    <span>&#x25A0;</span>
+    </th>
+    <th>П2019
+    <span>&#x25A0;</span>
+    </th>
+    <th>Е2018
+    <span>&#x25A0;</span>
+    </th>
+    <th>О2018
+    <span>&#x25A0;</span>
+    </th>
+    <th>П2018
+    <span>&#x25A0;</span>
+    </th>
+    <th>Е2017
+    <span>&#x25A0;</span>
+    </th>
+    <th>О2017
+    <span>&#x25A0;</span>
+    </th>
+    <th>П2017
+    <span>&#x25A0;</span>
+    </th>
+    <th>Е2016
+    <span>&#x25A0;</span>
+    </th>
+    <th>О2016
+    <span>&#x25A0;</span>
+    </th>
+    <th>П2016
+    <span>&#x25A0;</span>
+    </th>
+    <th>Е2015
+    <span>&#x25A0;</span>
+    </th>
+  </tr>
+</table>
+</body>
+</html>
