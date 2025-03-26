@@ -1,5 +1,4 @@
-
-        document.addEventListener('DOMContentLoaded', function() {
+function initializeCalendar() {
             const calendar = document.getElementById('calendar');
             const selectionInfo = document.getElementById('selectionInfo');
             const daysOfWeek = ['Понеделник', 'Вторник', 'Сряда', 'Четвъртък', 'Петък', 'Събота', 'Неделя'];
@@ -224,4 +223,6 @@
                     e.preventDefault();
                 }
             }, { passive: false });
-        });
+        }
+
+document.addEventListener('DOMContentLoaded', initializeCalendar);
