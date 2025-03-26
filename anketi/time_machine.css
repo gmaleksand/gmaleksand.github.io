@@ -1,0 +1,92 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            touch-action: none; /* Prevent browser touch behaviors */
+        }
+
+        .calendar {
+            display: flex;
+            width: 100%;
+            border: 1px solid #ddd;
+            overflow: hidden;
+        }
+
+        .time-column {
+            width: 50px;
+            border-right: 1px solid #eee;
+            position: sticky;
+            left: 0;
+            background: white;
+            z-index: 2;
+        }
+
+        .day-column {
+            flex: 1;
+            min-width: 0;
+            position: relative;
+            border-right: 1px solid #eee;
+        }
+
+        .day-header {
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            background-color: #f5f5f5;
+            border-bottom: 1px solid #ddd;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+
+        .time-slot {
+            height: 30px;
+            border-bottom: 1px solid #eee;
+            position: relative;
+        }
+
+        .time-label {
+            position: absolute;
+            left: 5px;
+            top: 5px;
+            font-size: 12px;
+            color: #000;
+        }
+
+        .selection {
+            position: absolute;
+            background-color: rgba(66, 133, 244, 0.3);
+            border: 1px solid rgba(66, 133, 244, 0.8);
+            border-radius: 3px;
+            pointer-events: none;
+            z-index: 10;
+        }
+
+        .selection-info {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f5f5f5;
+            border-radius: 4px;
+            position: sticky;
+            bottom: 0;
+        }
+
+        .day-slot {
+            height: 30px;
+            border-bottom: 1px solid #eee;
+            position: relative;
+        }
+
+        @media (max-width: 768px) {
+            .calendar {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+            .time-label {
+                font-size: 10px;
+            }
+            .day-header {
+                font-size: 12px;
+                padding: 5px;
+            }
+        }

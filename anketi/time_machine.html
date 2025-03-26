@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Машина на времето</title>
+    <link rel="stylesheet" href="css/time_machine.css" type="text/css" media="all">
+</head>
+<body>
+    <script type="text/javascript">var submitted=false;</script>
+    <iframe name="hidden_iframe" style="display:none;" onload="if(submitted){document.getElementById('response_collected_span').innerHTML = 'Отговорът е получен';}"></iframe>
+    <form action="https://docs.google.com/forms/d/1fn4GMj8iC2ZoviW-tsl79KvqQio7eWMncAycW9RP4FU/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+    <label>Име:</label>
+    <input name="entry.522749126" type="text"/>
+    <fieldset>
+      <legend>Клас</legend>
+      <input type="radio" name="entry.2074305490" value="12">12</input>
+      <input type="radio" name="entry.2074305490" value="11">11</input>
+      <input type="radio" name="entry.2074305490" value="10">10</input>
+      <input type="radio" name="entry.2074305490" value="9">9</input>
+      <input type="radio" name="entry.2074305490" value="8">8</input>
+      <input type="radio" name="entry.2074305490" value="7">7</input>
+    </fieldset>
+
+    Кога можеш да дойдеш на школа?
+    <input type="hidden" name="entry.1583041828" value="">
+    <input type="hidden" name="entry.1927286252" value="">
+    <input type="hidden" name="entry.580415229" value="">
+    <input type="hidden" name="entry.852829648" value="">
+    <input type="hidden" name="entry.602504872" value="">
+    <input type="hidden" name="entry.2121097989" value="">
+    <input type="hidden" name="entry.1842611270" value="">
+
+    <div class="calendar" id="calendar">
+        <div class="time-column">
+            <div class="day-header">Час</div>
+            <!-- Time slots will be generated here -->
+        </div>
+        <!-- Day columns will be generated here -->
+    </div>
+    <div class="selection-info" id="selectionInfo">
+        Отбележи с плъзгане времевия интервал.
+    </div>
+    <label>Каква школа би искал да посещаваш?</label>
+    <input name="entry.978235622" type="text"/>
+    <input type="submit" value="Send"/>
+</form>
+<span id="response_collected_span"></span>
+</body>
+</html>
