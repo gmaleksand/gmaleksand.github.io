@@ -10,7 +10,7 @@
 <body>
     <script type="text/javascript">var submitted=false;</script>
     <iframe name="hidden_iframe" style="display:none;" onload="if(submitted){document.getElementById('response_collected_span').innerHTML = 'Отговорът е получен';}"></iframe>
-    <form action="https://docs.google.com/forms/d/1fn4GMj8iC2ZoviW-tsl79KvqQio7eWMncAycW9RP4FU/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+    <form action="https://docs.google.com/forms/d/1fn4GMj8iC2ZoviW-tsl79KvqQio7eWMncAycW9RP4FU/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true; disable_submit_button()">
     <label>Име:</label>
     <input name="entry.522749126" type="text"/>
     <fieldset>
@@ -44,8 +44,8 @@
     </div>
     <label>Каква школа би искал да посещаваш?</label>
     <input name="entry.978235622" type="text"/>
-    <input type="submit" value="Send"/>
+    <input type="submit" id="submitBtn" value="Изпрати"/>
+    <span id="response_collected_span"></span>
 </form>
-<span id="response_collected_span"></span>
 </body>
 </html>

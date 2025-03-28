@@ -90,3 +90,7 @@
                 padding: 5px;
             }
         }
+
+        #submitBtn.processing {
+            cursor: not-allowed;
+        }
