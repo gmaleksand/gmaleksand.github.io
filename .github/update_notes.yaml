@@ -26,6 +26,7 @@ jobs:
         uses: konstfish/quartz-build-action@main
         with:
           source: notebook/docs
+          destination: notebook
           quartz_config: .github/quartz/quartz.config.ts
           quartz_layout: .github/quartz/quartz.layout.ts
           #quartz_icon: .github/quartz/icon.png
