@@ -1,1 +1,51 @@
+name: Build Quartz Site
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - notebook/docs/**
+      - .github/workflows/update_notes.yaml
+      - quartz/**
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            notebook/docs
+            .github
+            quartz
 
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build
+        uses: konstfish/quartz-build-action@main
+        with:
+          source: notebook/docs
+          destination: notebook
+          quartz_config: .github/quartz/quartz.config.ts
+          quartz_layout: .github/quartz/quartz.layout.ts
+          #quartz_icon: .github/quartz/icon.png
+          #quartz_banner: .github/quartz/og-image.png
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'notebook'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          publish_dir: ./notebook
+    
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
