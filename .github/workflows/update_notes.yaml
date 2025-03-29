@@ -4,6 +4,8 @@ on:
     branches: ["main"]
     paths:
       - notebook/docs/**
+      - .github/workflows/update_notes.yaml
+      - quartz/**
 permissions:
   contents: read
   pages: write
@@ -18,6 +20,7 @@ jobs:
           sparse-checkout: |
             notebook/docs
             .github
+            quartz
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
