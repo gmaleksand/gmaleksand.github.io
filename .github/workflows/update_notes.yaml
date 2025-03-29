@@ -30,21 +30,18 @@ jobs:
         with:
           source: notebook/docs
           destination: notebook
+          page_title: "Профил 11"
           quartz_config: .github/quartz/quartz.config.ts
           quartz_layout: .github/quartz/quartz.layout.ts
-          #quartz_icon: .github/quartz/icon.png
-          #quartz_banner: .github/quartz/og-image.png
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: 'notebook'
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-        with:
-          publish_dir: ./notebook
+      #- name: Deploy to GitHub Pages
+      #  id: deployment
+      #  uses: actions/deploy-pages@v4
     
     environment:
       name: github-pages
