@@ -1,20 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>gmaleksand</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gmaleksand</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Сайтът се изгражда</h1>
-<h2>Полезни връзки:</h2>
-<p><a href="https://drive.google.com/drive/folders/11-PxyPcBT_wRpi_TXIZATFaWk9WPCS7G?usp=sharing">Записки по физика на Кевин Джоу</a>, преведени на български с <a href="https://bggpt.ai/">BgGPT</a>. В момента в тях има грешки, съветваме ви да си правите справка с <a href="https://knzhou.github.io/#physics-olympiad-handouts">оригиналните записки</a>.</p>
-<p><a href="/notebook">Записки по физика за профил 11 клас</a></p>
-<p><a href="https://e1.pcloud.link/publink/show?code=kZVHg4ZTtw7duJmdspOR5MCUhHcPSrpJpGV">Стари есенни, пролетни и олимпиади по физика</a>, <a href="/klasirane">класирания</a></p>
-<p><a href="https://u.pcloud.link/publink/show?code=kZVYO47ZNTqx8rCGDUhDAuiu0k6ScQnH6QMV&lang=en">Стари олимпиади по астрономия</a></p>
-<p><a href="https://astro-olymp.org/">Сайт на олимпиадата по астрономия</a>; <a href="https://www.facebook.com/AstroOlympBG/">Facebook</a></p>
-<p>Официална информация за ученическите олимпиади: <a href="https://mon.bg/bg/16">МОН</a>, <a href="https://www.prirodninauki.bg/">Природни науки</a> (РУО София)</p>
-<p><a href="https://www.phys.uni-sofia.bg/">Физически факултет</a> - <a href="https://www.phys.uni-sofia.bg/?page_id=2902">кандидатстване</a>. ФМИ - <a href="https://fmi.uni-sofia.bg/bg/departments">катедри</a> и <a href="https://debian.fmi.uni-sofia.bg/study/index.html">записки</a>.</p>
-<p><a href="https://physoly.tech/">Physics Olympiads Discord Server</a></p>
-
-  
+    <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h2>Полезни връзки</h2>
+            <label class="toggle-switch">
+                <input type="checkbox" id="theme-toggle">
+                <img id="nightIcon" src="light_mode_button.svg" width="20" height="20">
+                <img id="dayIcon" src="dark_mode_button.svg" width="20" height="20">
+            </label>
+        </div>
+        <div class="project-cards">
+            <div class="card">
+                <h3><a href="https://e.pcloud.link/publink/show?code=XZabUdZixQALNgoHgzm9pY5lLsfeH170GMV" target="_blank">Основи на физиката, написани на LaTeX</a></h3>
+                <p>Ще се радвам, ако <a href="https://docs.google.com/forms/d/e/1FAIpQLSceAiaEcV_A2c7XMCLCLvykaEpqIWhTH6fSbmhw2fzl4AUuPw/viewform">докладвате</a> грешки спрямо оригинала: <a href="https://kolegite.com/EE_library/books_and_lectures/%Физика/Учебник по Физика 1.pdf">част 1</a>, <a href="https://kolegite.com/EE_library/books_and_lectures/%Физика/Учебник по Физика 2.pdf">част 2</a>.</p>
+            </div>
+            <div class="card">
+                <h3><a href="/notebook">Профил 11 клас</a></h3>
+                <p>Училищни записки по физика</p>
+            </div>
+            <div class="card">
+                <h3><a href="https://drive.google.com/drive/folders/11-PxyPcBT_wRpi_TXIZATFaWk9WPCS7G?usp=sharing" target="_blank">Кевин Джоу</a></h3>
+                <p>Записки на ниво международни олимпиади, преведени на български с <a href="https://bggpt.ai/" target="_blank">BgGPT</a>. В момента в тях има грешки, съветваме ви да си правите справка с <a href="https://knzhou.github.io/#physics-olympiad-handouts" target="_blank">оригиналните записки</a>.</p>
+            </div>
+            <div class="card">
+                <h3><a href="https://e1.pcloud.link/publink/show?code=kZVHg4ZTtw7duJmdspOR5MCUhHcPSrpJpGV" target="_blank">Архив по физика</a></h3>
+                <p>Стари есенни, пролетни и олимпиади</p>
+            </div>
+            <div class="card">
+                <h3><a href="/klasirane">Класиране по физика</a></h3>
+            </div>
+            <div class="card">
+                <h3>Астрономия</h3>
+                <p><a href="https://u.pcloud.link/publink/show?code=kZVYO47ZNTqx8rCGDUhDAuiu0k6ScQnH6QMV&lang=en">Архив с олимпиади (Куртенков)</a>, 
+<p><a href="https://astro-olymp.org/">уебсайт</a> и <a href="https://www.facebook.com/AstroOlympBG/">Facebook</a> на олимпиадата.</p>
+            </div>
+            <div class="card">
+                <h3>Официална информация за олимпиади</h3></a>
+                <a href="https://mon.bg/bg/16">МОН</a>, <a href="https://www.prirodninauki.bg/">Природни науки</a> (РУО София)
+            </div>
+            <div class="card">
+                <h3><a href="https://www.phys.uni-sofia.bg/" target="_blank">Физически факултет</a></h3>
+                <a href="https://www.phys.uni-sofia.bg/?page_id=2902" target="_blank">кандидатстване</a>
+            </div>
+            <div class="card">
+                <h3>ФМИ</h3>
+                <a href="https://fmi.uni-sofia.bg/bg/departments" target="_blank">катедри</a> и <a href="https://debian.fmi.uni-sofia.bg/study/index.html">записки</a>.
+            </div>
+            <div class="card">
+                <h3><a href="https://physoly.tech/" target="_blank">Physics Olympiads Discord Server</a></h3>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="darkmode.js"></script>
 </body>
 </html>
