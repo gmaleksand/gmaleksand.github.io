@@ -4,38 +4,38 @@
 Решения на задачите от специалната тема</p>
 <p>Задача 1. Подскачане на топче за тенис на маса.
 а) Нека скоростта на топчето след първия удар да е v1, след втория удар – v2, а след n-ия удар – vn.
-Тогава скоростта след първия удар е v1  kv0 , след втория удар е v2  kv1  k 2v0 , а след n-ия удар
+Тогава скоростта след първия удар е v1 = kv0 , след втория удар е v2 = kv1 = k 2v0 , а след n-ия удар
 2v1 2kv0
-е vn  kvn1  k n v0 [0,5 т]. Съответно времето между първия и втория удар е t1 _ 2                                       ,
+е vn = kvn-1 = k n v0 [0,5 т]. Съответно времето между първия и втория удар е t1 _ 2 =                                 =     ,
 g   g
 2v2 2k 2v0
-между втория и третия удар е t2 _ 3                                   , а между n  1 -ия и n-ия удар е
+между втория и третия удар е t2 _ 3 =                           =       , а между n - 1 -ия и n-ия удар е
 g    g
-2vn 2k n 1v0
-t n 1 _ n               [0,5          т].      Общото           време        между     първия    и        n-ия          удар        е
+2vn 2k n -1v0
+t n -1 _ n =    =          [0,5          т].      Общото           време        между     първия    и        n-ия          удар        е
 g     g
-2v0 k (1  k n1 )
-T1 _ n  t1 _ 2  t2 _ 3  …  tn1 _ n =
+2v0 k (1 - k n-1 )
+T1 _ n = t1 _ 2  t2 _ 3  …  tn-1 _ n =
 2v0
 g
                         
 2v k
 
-k  k 2  …  k n1  0 1  k  …  k n2
+k  k 2  …  k n-1 = 0 1  k  …  k n-2
 g
      =
-g (1  k )
+g (1 - k )
 [0,5т].
 Следователно времето от първия удар до пълното спиране на топчето върху повърхността е
-2v0 k (1  k n1 )     2v0 k
-T1 _   lim                                [0,5 т].
-n    g (1  k )        g (1  k )
+2v0 k (1 - k n-1 )     2v0 k
+T1 _  = lim                    =            [0,5 т].
+n    g (1 - k )        g (1 - k )
 б) от приложената фигура могат да се измерят моментите време на голям брой удари. В по-
 долната таблица са дадени тези моменти време за първите 25 удара (измерени с точност 10 ms)
 [0,5 т].</p>
-<p>№        Време    tn–tn-1,          lg(tn–tn-1)      t n  t n1       № на Време    tn–tn-1,      lg(tn– tn-1)          t n  t n1
+<p>№        Време    tn–tn-1,          lg(tn–tn-1)      t n - t n-1       № на Време    tn–tn-1,      lg(tn– tn-1)          t n - t n-1
 на       на n-ия ms                                                    удар на n-ия ms
-t n1  t n2                                                       t n1  t n2
+t n-1 - t n-2                                                       t n-1 - t n-2
 удар     удар tn,                                                           удар tn,
 ms                                                                 ms
 1          260                                                         14      2610      110           2.041             1.000
@@ -54,134 +54,134 @@ ms                                                                 ms
 (за таблицата [0,5 т]).
 От тези моменти време могат да се получат две зависимости:
 б1) (по-лесна и по-неточна) Отношенията на два съседни интервала време между
-2 k n 1v
-t t         tn _ n1             0
-t n  t n1
-последователни удари n n1 =                   2 k ng2v  k . Следователно, зависимостта                                          =
-t n1  t n2 tn1 _ n2            0                                                            t n1  t n2
+2 k n -1v
+t -t         tn _ n-1             0
+t n - t n-1
+последователни удари n n-1 =                  = 2 k ng-2v = k . Следователно, зависимостта                                          =
+t n-1 - t n-2 tn-1 _ n-2            0                                                            t n-1 - t n-2
 g</p>
 <p>f n  [0,5 т] трябва да е константа (хоризонтална права линия), равна на коефициента на
 възстановяване k. Зависимостта е дадена на Фиг.1. Стойността на получената константа е k = 0.930
-t n  t n1
+t n - t n-1
 [1 т] (която може да се сметне и като средна стойност на всичките отношения                                           ).
-t n1  t n2</p>
+t n-1 - t n-2</p>
 <pre><code>                                                                   1
-                                                      2k n1v0                          2v
-    б2) (по-трудна и по-точна) Тъй като tn1 _ n              , то lg( tn1 _ n )  lg( 0 )  lg( k )( n  1) .
+                                                      2k n-1v0                          2v
+    б2) (по-трудна и по-точна) Тъй като tn-1 _ n =             , то lg( tn-1 _ n ) = lg( 0 )  lg( k )( n - 1) .
                                                          g                               g
 </code></pre>
-<p>Следователно зависимостта lg( tn1 _ n )  f (n  1) [0,5 т] е права линия с наклон lg(k). Тази
+<p>Следователно зависимостта lg( tn-1 _ n ) = f (n - 1) [0,5 т] е права линия с наклон lg(k). Тази
 зависимост е дадена на Фиг.2.</p>
 <pre><code>                    Фиг.1 [3,5 т]                                          Фиг.2 [3,5 т]
 </code></pre>
 <p>По този начин стойността на получената константа е k = 0,926 [1 т].
 в) грешката по начина б1) е трудно да се оцени графично (но е от порядъка на 0,25). По начина б2)
 може да се оцени по метода на най-стръмната и най-хоризонталната права, минаващи през точките
-от графиката. Така се получава k  0,926  0.008 [0,5 т].
-г) от фигурата интервалът време T1 _  = t  t1  3,910 – 0,260 = 3,650 s [0,5 т].
+от графиката. Така се получава k = 0,926  0.008 [0,5 т].
+г) от фигурата интервалът време T1 _  = t - t1 = 3,910 – 0,260 = 3,650 s [0,5 т].
 2          2
 2v0 k           v
 2
-gT1 _   1  k 
-д) тъй като T1 _              , а h  0 , то h                  [0,3 т]. Замествайки с дадените и
-g (1  k )        2g            8  k 
+gT1 _   1 - k 
+д) тъй като T1 _  =            , а h = 0 , то h =                 [0,3 т]. Замествайки с дадените и
+g (1 - k )        2g            8  k 
 измерените стойности h = 0,104 m [0,2 т].
-е) използвайки грешката за k, k  0,008 , изчислявайки h съответно с най-малката и най-
-голямата стойност за k, намираме за h  0,025 m [0,5 т].</p>
+е) използвайки грешката за k, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span></span></span></span>k = 0,008 , изчислявайки h съответно с най-малката и най-
+голямата стойност за k, намираме за <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span></span></span></span>h <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4831em;"></span><span class="mrel">≈</span></span></span></span> 0,025 m [0,5 т].</p>
 <p>Задача 2. Трансформатор на Тесла</p>
 <p>А1) Единична кръгова навивка, по която тече ток I, създава през напречното си сечение поток на
 магнитното поле:
-0  0r(ln( r /a)  0.230)I
-Когато токът тече по N1 плътно допрени навивки, потокът през всяка една от тях е   N10 , а
+0 = <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">μ</span></span></span></span>0r(ln( r /a) - 0.230)I
+Когато токът тече по N1 плътно допрени навивки, потокът през всяка една от тях е  = N10 , а
 общият поток през всички тях:
-1  N1  N12 0 r (ln( r / a)  0.230) I         [1.0 т]
-Индуктивността на намотката е L1  1 / I т.е.:
-L1  N12 0 r(ln( r / a )  0.230)                              [0.5 т]
+1 = N1 = N12 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">μ</span></span></span></span>0 r (ln( r / a) - 0.230) I         [1.0 т]
+Индуктивността на намотката е L1 = 1 / I т.е.:
+L1 = N12<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">μ</span></span></span></span> 0 r(ln( r / a ) - 0.230)                              [0.5 т]
 А2) След заместване с числените стойности намираме:
-L1  8.31105 H                                                [0.5 т]
-А3) От връзката   1/(2 L1C1 ) намираме:
+L1 = 8.3110-5 H                                                [0.5 т]
+А3) От връзката  = 1/(2 L1C1 ) намираме:
 1
-C1                                                             [1.0 т]
+C1 =                                                            [1.0 т]
 4  2 L1
 2</p>
 <p>Б1) Магнитната индукция в дълъг соленоид е:
 N2
-B  0      I                                                   [0.5 т]
+B = <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">μ</span></span></span></span>0      I                                                   [0.5 т]
 l</p>
 <pre><code>                                                2
 </code></pre>
 <p>Магнитният поток през единична навивка е:
 N2S
-  BS   0            I                           [0.5 т]
+ = BS = <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">μ</span></span></span></span> 0            I                           [0.5 т]
 l
 а през цялата намотка:
 N 22 S
- 2  N 2  0        I                            [0.5 т]
+ 2 = N 2 = <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">μ</span></span></span></span>0        I                            [0.5 т]
 l
 Следователно индуктивността на вторичната намотка е:
 N 22 S
-L2  0                                            [0.5 т]
+L2 = <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">μ</span></span></span></span>0                                            [0.5 т]
 l
 Б2) Електричното поле над Земята е суперпозиция от полето, създадено от заряда +q върху
 сферата и полето, създадено от заряда-образ –q. Ако приемем, че зарядът е разпределен
 равномерно върху сферата и H >> R, за потенциала в центъра на сферата получаваме:
-q        q          q( 2 H  R )
-                                                        [1.0 т]
+q        q          q( 2 H - R )
+=         -             =                                  [1.0 т]
 40 R 40 ( 2 H )    80 RH
 Понеже потенциалът на земната повърхност е нула, напрежението между сферата и Земята е U =
 , а капацитетът на системата сфера-Земя –
 q 80 RH
-C2               3.52 10 11 F                          [0.5 т]
- (2H  R)
+C2 =    =         = 3.52 10 -11 F                          [0.5 т]
+ (2H - R)
       
-Б3) За да съвпадат собствените честоти на двата кръга, е необходимо L2  1/ ( 2)2 C2 , откъдето
+Б3) За да съвпадат собствените честоти на двата кръга, е необходимо L2 = 1/ ( 2)2 C2 , откъдето
 определяме броя на навивките във вторичната намотка:
 1      l
-N2                  6549                         [0.5 т]
-2  0 SC2
+N2 =                = 6549                         [0.5 т]
+2 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">μ</span></span></span></span> 0 SC2
 В) При зареждането на кондензатора в него се натрупва енергия:
 C1U12
-W            .                                     [0.5 т]
+W=            .                                     [0.5 т]
 2
 След като кондензаторът е включен към първичната намотка, в първичния кръг възникват
 електромагнитни трептения, поради които във вторичната намотка се индуцира променлив ток.
 Постепенно енергията се предава от първичната във вторичната намотка, докато трептенията в
 първичната намотка затихнат. В този момент:
 C2U 22
-W             ,                                    [0.5 т]
+W=             ,                                    [0.5 т]
 2
 където U2 е амплитудата на променливото напрежение във вторичната намотка. От закона за
 запазване на енергията:
 C1U12 C2U 22
-       .                                     [0.5 т]
+=       .                                     [0.5 т]
 2     2
 Следователно:
 C1
-U 2  U1        .                                   [0.5 т]
+U 2 = U1        .                                   [0.5 т]
 C2
 Като вземем предвид, че честотите на двата кръга съвпадат, получаваме:
 L2     N                      S
-U 2  U1       U1 2                                   294 kV       [1.0 т]
-L1     N1         lr (ln( r / a )  0.230)</p>
+U 2 = U1      = U1 2                                  <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4831em;"></span><span class="mrel">≈</span></span></span></span> 294 kV       [1.0 т]
+L1     N1         lr (ln( r / a ) - 0.230)</p>
 <p>Задача 3. Интерференция от клин
 а) Задачата може да се реши като граничен случай на интерференция на два точкови
 източника (схема на Юнг) или графично. Ако наблюдаваме интерференция от два точкови
 източника, излъчващи монохроматична светлина с дължина на вълната λ, и намиращи се на
 разстояние d един от друг, върху екран на разстояние L от тях, то разстоянието между</p>
 <pre><code>                                                    3
-                                                                   L                               d
+                                                                   $\lambda$L                               d
 </code></pre>
-<p>максимумите на екрана (в приближение d  L ) е x                         . Ако L   така, че           const   ,
+<p>максимумите на екрана (в приближение d &lt;&lt; L ) е <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span></span></span></span>x =                        . Ако L   така, че          = const = <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.0037em;">α</span></span></span></span> ,
 d                                L
-
-то сноповете стават успоредни и тогава x    [2,5 т]. Графично може да се реши, изследвайки
-
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">λ</span></span></span></span>
+то сноповете стават успоредни и тогава <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span></span></span></span>x =   [2,5 т]. Графично може да се реши, изследвайки
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.0037em;">α</span></span></span></span>
 чертежа, представен по-долу. Ако начертаем за двата снопа по три вълнови повърхности,
-/2                                
-различаващи се с фаза π, то се вижда от показания триъгълник, че                                  , откъдето x1 
-x          2                      
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">λ</span></span></span></span>/2          <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.0037em;">α</span></span></span></span>                      <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">λ</span></span></span></span>
+различаващи се с фаза π, то се вижда от показания триъгълник, че                           =       , откъдето <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span></span></span></span>x1 =
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span></span></span></span>x          2                      <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.0037em;">α</span></span></span></span>
 500 nm
-[2,5 т]. При дадените стойности x1                     2 ,9 mm [0,5 т].
+[2,5 т]. При дадените стойности <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span></span></span></span>x1 =                   <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4831em;"></span><span class="mrel">≈</span></span></span></span> 2 ,9 mm [0,5 т].
 0.01
 lπ +2π
 (k-l)π
@@ -206,22 +206,22 @@ lπ +2π
                      β       δ                                                                 α
 </code></pre>
 <p>за правилен чертеж [0,5 т].
-sin  / sin   n ,      ,      , sin  / sin   n и      (за всяко уравнение [0,2 т]).
+sin <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span></span></span></span> / sin  = n ,  =   <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.0037em;">α</span></span></span></span> ,  =  - <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.0037em;">α</span></span></span></span> , sin  / sin  = n и  = <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span></span></span></span> -  (за всяко уравнение [0,2 т]).
 От по-горните уравнения и използвайки, че α е малък ъгъл, следва:
-sin   n sin   n sin(   2 ) = n sin  cos( 2 )  n cos  sin( 2 )  n sin   n cos  .2 
- sin   n2  sin 2  .2 .         (3.1)
+sin  = n sin  = n sin(  - 2<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.0037em;">α</span></span></span></span> ) = n sin  cos( 2<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.0037em;">α</span></span></span></span> ) - n cos  sin( 2<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.0037em;">α</span></span></span></span> ) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4831em;"></span><span class="mrel">≈</span></span></span></span> n sin  - n cos  .2<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.0037em;">α</span></span></span></span> =
+= sin <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span></span></span></span> - n2 - sin 2 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span></span></span></span> .2<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.0037em;">α</span></span></span></span> .         (3.1)
 От друга страна
-sin   sin(    )  sin  cos   cos  sin   sin   cos  .                (3.2)
+sin  = sin( <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span></span></span></span> -  ) = sin <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span></span></span></span> cos  - cos <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span></span></span></span> sin  <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4831em;"></span><span class="mrel">≈</span></span></span></span> sin <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span></span></span></span> - cos <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span></span></span></span> .                (3.2)
 Приравявайки (3.1) и (3.2) следва:
-2 n 2  sin 2 
-                      [3,5     т].    Използвайки     резултата   от   първото                           подусловие
-cos
- cos 
-x2                         [0,5       т].      Замествайки      с    дадените                                стойности
-2 n 2  sin 2 
+2<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.0037em;">α</span></span></span></span> n 2 - sin 2 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span></span></span></span>
+=                      [3,5     т].    Използвайки     резултата   от   първото                           подусловие
+cos<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span></span></span></span>
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">λ</span></span></span></span> cos <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span></span></span></span>
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span></span></span></span>x2 =                        [0,5       т].      Замествайки      с    дадените                                стойности
+2<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.0037em;">α</span></span></span></span> n 2 - sin 2 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span></span></span></span>
 500 nm  cos 60
-x2                              5,8 mm [1 т].
-2.0,001 1,52  sin 2 60</p>
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span></span></span></span>x2 =                            <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4831em;"></span><span class="mrel">≈</span></span></span></span> 5,8 mm [1 т].
+2.0,001 1,52 - sin 2 60</p>
 <pre><code>                                                      4
 </code></pre></article><hr/><div class="page-footer"></div></div><div class="right sidebar"></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2025</p><ul></ul></footer></div></div></body><script type="application/javascript">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
 </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../../../postscript.js" type="module"></script></html>
