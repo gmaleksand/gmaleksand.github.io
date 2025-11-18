@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 450">
+<style>
+.grid-fine-line { stroke: #d9d9d9; stroke-width: 0.5; fill: none; }
+.grid-thick-fill { fill: url(#grid-fine); }
+.grid-thick-line { stroke: #b0b0b0; stroke-width: 1; fill: none; }
+.main-line { stroke: #606060; stroke-width: 2; }
+.angle-arc { stroke: #1a73e8; stroke-width: 1.5; fill: none; }
+.angle-label { font: 15px sans-serif; fill: #1a73e8; }
+</style>
+<defs>
+<pattern id="grid-fine" width="10" height="10" patternUnits="userSpaceOnUse">
+<path d="M 10 0 L 0 0 0 10" class="grid-fine-line"/>
+</pattern>
+<pattern id="grid-thick" width="50" height="50" patternUnits="userSpaceOnUse">
+<rect width="50" height="50" class="grid-thick-fill"/>
+<path d="M 50 0 L 0 0 0 50" class="grid-thick-line"/>
+</pattern>
+</defs>
+<rect width="100%" height="100%" fill="url(#grid-thick)"/>
+<g transform="translate(50, 400)">
+<line x1="0" y1="0" x2="1150" y2="0" class="main-line"/>
+<line x1="0" y1="0" x2="1200" y2="0" class="main-line" transform="rotate(-15)"/>
+<path d="M 30 0 A 30 30 0 0 0 28.978 -7.764" class="angle-arc"/>
+<text x="50" y="-2" class="angle-label">15°</text>
+</g>
+</svg>
