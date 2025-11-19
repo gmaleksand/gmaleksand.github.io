@@ -158,3 +158,23 @@ a:hover { text-decoration: underline; }
     #sidebar.open { transform: translateX(0); }
     .mobile-only { display: block; font-size: 1.5rem; background: none; border: none; color: var(--text-color); cursor: pointer; margin-right: 10px; }
 }
+
+
+.directory-list {
+    margin-left: 1rem;
+    list-style: none;
+}
+
+.folder-summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.file-item.level-1 { margin-left: 0.5rem; }
+.file-item.level-2 { margin-left: 1rem; }
+.file-item.level-3 { margin-left: 1.5rem; }
+
+.broken-link {
+    color: #ff6b6b;
+    text-decoration: line-through;
+}

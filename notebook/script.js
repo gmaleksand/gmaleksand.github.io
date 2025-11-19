@@ -338,5 +338,9 @@ function setupLinkPreviews() {
         link.addEventListener('mouseleave', () => {
             tooltip.classList.add('hidden');
         });
+        link.addEventListener('click', () => {
+            tooltip.classList.add('hidden');
+        });
+
     });
 }
