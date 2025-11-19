@@ -1,5 +1,6 @@
 const vaultFolder = 'vault/';
-let fileMap = []; // Will hold list of files
+let fileMap = []; // Will hold list of files with paths
+let flatFileMap = []; // Will hold flattened list for quick lookups
 
 // Initialize
 document.addEventListener('DOMContentLoaded', async () => {
@@ -15,6 +16,8 @@ async function loadManifest() {
     try {
         const response = await fetch('manifest.json');
         fileMap = await response.json();
+        // Create flattened version for quick lookups
+        flatFileMap = flattenFileMap(fileMap);
         renderSidebar(fileMap);
     } catch (e) {
         console.error("Could not load manifest.json. Make sure you generated it.", e);
@@ -22,23 +25,80 @@ async function loadManifest() {
     }
 }
 
-// 2. Render Sidebar
-function renderSidebar(files) {
-    const list = document.getElementById('file-list');
-    list.innerHTML = '';
-    files.forEach(file => {
-        const li = document.createElement('li');
-        const a = document.createElement('a');
-        // Remove extension for display
-        const name = file.replace('.md', '');
-        a.textContent = name;
-        a.href = `#${name}`;
-        li.appendChild(a);
-        list.appendChild(li);
+// 2. Flatten file map for quick lookups
+function flattenFileMap(fileMap, prefix = '') {
+    let flatList = [];
+    
+    for (const item of fileMap) {
+        if (typeof item === 'string') {
+            // It's a file
+            const fullPath = prefix ? `${prefix}/${item}` : item;
+            flatList.push(fullPath);
+        } else if (typeof item === 'object') {
+            // It's a directory object
+            const dirName = Object.keys(item)[0];
+            const contents = item[dirName];
+            const newPrefix = prefix ? `${prefix}/${dirName}` : dirName;
+            flatList = flatList.concat(flattenFileMap(contents, newPrefix));
+        }
+    }
+    
+    return flatList;
+}
+
+// 3. Render Sidebar with directory structure
+function renderSidebar(files, container = null, level = 0, currentPath = '') {
+    const list = container || document.getElementById('file-list');
+    
+    if (!container) {
+        list.innerHTML = '';
+    }
+    
+    files.forEach(item => {
+        if (typeof item === 'string') {
+            // It's a file
+            const li = document.createElement('li');
+            li.className = `file-item level-${level}`;
+            
+            const a = document.createElement('a');
+            // Remove extension for display
+            const displayName = item.replace('.md', '');
+            // Use full path for the link
+            const fullPath = currentPath ? `${currentPath}/${item}` : item;
+            const linkName = fullPath.replace('.md', '');
+            
+            a.textContent = displayName;
+            a.href = `#${linkName}`;
+            a.setAttribute('data-filepath', fullPath);
+            
+            li.appendChild(a);
+            list.appendChild(li);
+        } else if (typeof item === 'object') {
+            // It's a directory
+            const dirName = Object.keys(item)[0];
+            const contents = item[dirName];
+            
+            // Create directory container
+            const details = document.createElement('details');
+            const summary = document.createElement('summary');
+            summary.textContent = dirName;
+            summary.className = `folder-summary level-${level}`;
+            
+            const dirList = document.createElement('ul');
+            dirList.className = 'directory-list';
+            
+            details.appendChild(summary);
+            details.appendChild(dirList);
+            list.appendChild(details);
+            
+            // Recursively render contents with updated path
+            const newPath = currentPath ? `${currentPath}/${dirName}` : dirName;
+            renderSidebar(contents, dirList, level + 1, newPath);
+        }
     });
 }
 
-// 3. Routing (Hash based)
+// 4. Routing (Hash based)
 window.addEventListener('hashchange', handleRouting);
 
 async function handleRouting() {
@@ -46,28 +106,59 @@ async function handleRouting() {
     
     // Default to a file named 'Home' or the first file if empty
     if (!noteName) {
-        if (fileMap.includes('Home.md')) noteName = 'Home';
-        else if (fileMap.length > 0) noteName = fileMap[0].replace('.md', '');
+        const homeFile = findFileByName('Home');
+        if (homeFile) {
+            noteName = homeFile.replace('.md', '');
+        } else if (flatFileMap.length > 0) {
+            noteName = flatFileMap[0].replace('.md', '');
+        }
     }
 
     if (noteName) loadNote(noteName);
 }
 
-// 4. Load and Parse Note
-async function loadNote(noteName) {
+// 5. Find file by name (supports both flat and nested lookups)
+function findFileByName(noteName) {
     const fileName = noteName.endsWith('.md') ? noteName : `${noteName}.md`;
     
-    // Find exact path from manifest (simplification: assumes flat structure or matches filename)
-    const filePath = `${vaultFolder}${fileName}`;
+    // First try exact match
+    let filePath = flatFileMap.find(file => file === fileName);
+    if (filePath) return filePath;
     
-    document.getElementById('current-note-title').textContent = noteName;
+    // Try without extension match (with full path)
+    filePath = flatFileMap.find(file => file.replace('.md', '') === noteName);
+    if (filePath) return filePath;
+    
+    // Try basename match (for backward compatibility)
+    filePath = flatFileMap.find(file => {
+        const basename = file.split('/').pop().replace('.md', '');
+        return basename === noteName;
+    });
+    
+    return filePath;
+}
+
+// 6. Load and Parse Note
+async function loadNote(noteName) {
+    const filePath = findFileByName(noteName);
+    
+    if (!filePath) {
+        document.getElementById('markdown-output').innerHTML = `<h1>404</h1><p>Note "${noteName}" not found.</p>`;
+        return;
+    }
+    
+    const fullPath = `${vaultFolder}${filePath}`;
+    
+    // Display the note name without path for title
+    const displayName = filePath.split('/').pop().replace('.md', '');
+    document.getElementById('current-note-title').textContent = displayName;
     
     // Update Download Button
     const dlBtn = document.getElementById('download-btn');
-    dlBtn.setAttribute('href', filePath);
+    dlBtn.setAttribute('href', fullPath);
     
     try {
-        const res = await fetch(filePath);
+        const res = await fetch(fullPath);
         if (!res.ok) throw new Error('Note not found');
         const text = await res.text();
         
@@ -75,12 +166,12 @@ async function loadNote(noteName) {
         let html = marked.parse(text);
         
         // Process images before sanitization
-        html = processImages(html, filePath);
+        html = processImages(html, fullPath);
         
         // Sanitize
         html = DOMPurify.sanitize(html, {
-            ADD_TAGS: ['img'], // Ensure img tags are allowed
-            ADD_ATTR: ['src', 'alt', 'title', 'width', 'height', 'loading'] // Allow image attributes
+            ADD_TAGS: ['img', 'details', 'summary'],
+            ADD_ATTR: ['src', 'alt', 'title', 'width', 'height', 'loading']
         });
         
         // Render Custom WikiLinks [[Link]]
@@ -108,7 +199,7 @@ async function loadNote(noteName) {
     }
 }
 
-// 5. Process Images in Markdown
+// 7. Process Images in Markdown
 function processImages(html, currentFilePath) {
     // Process standard Markdown images: ![alt](src "title")
     html = html.replace(/!\[(.*?)\]\((.*?)(?:\s+"(.*?)")?\)/g, (match, alt, src, title) => {
@@ -143,17 +234,20 @@ function processImages(html, currentFilePath) {
     return html;
 }
 
-// 6. Process Obsidian WikiLinks [[Note Name]]
+// 8. Process Obsidian WikiLinks [[Note Name]]
 function processWikiLinks(html) {
     // Regex to match [[Link]] or [[Link|Alias]]
     return html.replace(/\[\[(.*?)(?:\|(.*?))?\]\]/g, (match, link, alias) => {
-        const href = `#${link}`;
+        const filePath = findFileByName(link);
+        const displayName = filePath ? filePath.replace('.md', '') : link;
+        const href = filePath ? `#${displayName}` : '#';
         const text = alias || link;
-        return `<a href="${href}" class="internal-link" data-link="${link}">${text}</a>`;
+        const cssClass = filePath ? 'internal-link' : 'broken-link';
+        return `<a href="${href}" class="${cssClass}" data-link="${displayName}">${text}</a>`;
     });
 }
 
-// 7. Event Listeners
+// 9. Event Listeners
 function setupEventListeners() {
     // Dark Mode
     const themeToggle = document.getElementById('theme-toggle');
@@ -171,7 +265,13 @@ function setupEventListeners() {
     const searchBox = document.getElementById('search-box');
     searchBox.addEventListener('input', (e) => {
         const term = e.target.value.toLowerCase();
-        const filtered = fileMap.filter(f => f.toLowerCase().includes(term));
+        if (term === '') {
+            renderSidebar(fileMap);
+            return;
+        }
+        
+        // Filter both files and directories
+        const filtered = filterFileMap(fileMap, term);
         renderSidebar(filtered);
     });
 
@@ -181,7 +281,28 @@ function setupEventListeners() {
     });
 }
 
-// 8. Link Preview Logic
+// 10. Filter file map for search
+function filterFileMap(files, term, currentPath = '') {
+    return files.filter(item => {
+        if (typeof item === 'string') {
+            // It's a file - check if it matches
+            const fullPath = currentPath ? `${currentPath}/${item}` : item;
+            return fullPath.toLowerCase().includes(term);
+        } else if (typeof item === 'object') {
+            // It's a directory - check if directory name matches or any contents match
+            const dirName = Object.keys(item)[0];
+            const contents = item[dirName];
+            const newPath = currentPath ? `${currentPath}/${dirName}` : dirName;
+            const filteredContents = filterFileMap(contents, term, newPath);
+            
+            // Keep directory if name matches or if it has matching contents
+            return dirName.toLowerCase().includes(term) || filteredContents.length > 0;
+        }
+        return false;
+    });
+}
+
+// 11. Link Preview Logic
 function setupLinkPreviews() {
     const links = document.querySelectorAll('.internal-link');
     const tooltip = document.getElementById('preview-tooltip');
@@ -189,7 +310,11 @@ function setupLinkPreviews() {
     links.forEach(link => {
         link.addEventListener('mouseenter', async (e) => {
             const noteName = e.target.getAttribute('data-link');
-            const fileName = `${vaultFolder}${noteName}.md`;
+            const filePath = findFileByName(noteName);
+            
+            if (!filePath) return;
+            
+            const fileName = `${vaultFolder}${filePath}`;
 
             try {
                 const res = await fetch(fileName);
