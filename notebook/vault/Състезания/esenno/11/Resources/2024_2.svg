@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="595.32" height="841.92" viewBox="0 0 595.32 841.92">
+  <defs>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAACFBAMAAADiNRY1AAAAJ1BMVEUDAwP///8XFxcuLi5ycnJJSUmLi4uenp5dXV2urq7CwsLY2Nju7u5WCjAmAAAE30lEQVRIx+2WzVcbVRjGX+8QjdXNtCgSZjEmpODRxZghEDwugAxhOHWRkoTmqAs+QgLiAgpkCLpITQLRuii2ZQhxYfpB+Nrk2EMbcIPSVo7+Ub4z4XTupBnXnmPvauY8ydz7vO9zf/cCaz3A9NZSsdbujVtrt278i3b1lfZf18Y6s99YagDubKWx9iTu50l0vaHW9veR+h34Ko00bVQnYdRKYx0TpN9KY8+Cly019iFZN2ttakySZg70R+Fjk7aY8/BAXJGs9pdbb1IaJwtAxEgIZd8Vlr1ko7Qlnhku7O3tFdQMuK+wzcTQmgX7Vs0wd7TJ2/rfpbQJW9FY0wbf+cjQOP5zygG3CSFjvhYomao6BsY6a1Mb40/46IWmTc1tyHkcQ9qS7sNbL7Q2GG/JeUAbzugw2yJAk7HOdHsGSDShJGUPMNkBssQY2q8A3an9E5Y73l0UCPTS/n4H6Py51rwpHuATWutrEsCbl+KSnOPhWtq2zFBr+brsByBOXIx7pvSY9zRRHk7YM1UOid6wsnXCsrcpDzXvj+V89qsT7ekdeI2qWQWVkOhyefNDqE7ABarWX94Z0ebDCV3hb3d4j91Y55hNIKNKoVBQpgXwCfYdysMfAD0HtR5sCwA3aX/3CHQGijhTNZbjCXTTmRA+WADixTaEnMCkFojf8O6AdUdyRO+Da22LdaThDZM/bldRJEXRI/WE6q3++WpMjkjSivb+FN6mvjnvmMbcokVvdtb8TU7oGeTBFc3L+AP3sB+otegeElvHx8d76hTP8B2nlIeLAO3nG/kufvpT2vuYXSDRAOYllvdAu6lmHH9zYwQ3mKhts9HiAxihc13hyoshj9MprqYqLHed6pHuj9uN5QMrv2nv78H7RibghHXE8hExkg9ozLpN/a8NbhxmeL2e4F0tnQpOKtd99hFwDymKkgzxJJxmNs257tGrzO0lsbc/0P5Q65rRtbKM3+6htWDHAJZTkiQsKFkbY6bo3o5Xp2prIb5U5Tm9lmbMtUNNYiYCyr7GLPiwzvt2PpId1it+icp1K5S4O7LHyTtd0UCJ5fooFiBDpjVmeUWsdXh2EzIUs+ZsPLOWKiCyMG6dQtMjc2+7zpm1U9/b6wy4pcT+8ZEaywDDt1OZ4ITeZcxSJBLCCX0rS/R8uM421a+Zd/oSRdbRV8+sI1VJKKliY2ZJUjYrJUp6Xehcjz+Xa8xyhZFZQXid6oPGLF8gHkOqMQE/ofrA3ifQpTMLTSCzrjWb93T7ObOWX2ZWkPikQDwu5QToTts2aWZ9Vs6gOZ0hQweH9cyqJgdF0RWNryARFl5i1vZgJG/BLCknimJUmqlnFvxoMCu7/sDMLNx/4YSWazyzuoL1zOre15/+2sBcf2FiFvY9gHVhj5JyPbOCHZMaPiQJ6+lKTJJBOtfzrbEas5jVFbY1TfVBZ1Y5GceRasgsajyltFZYNx3+Zmb10mfjFPipXP/EzBon4zR/mWZWi2AbOs91eZC3z9Pe2Ts8E46nCmpcwv0wazrDWQ4RgMzS9tEoEuYiffaznDodwr6LYT2gcxfq7hoIbGVLZ5ZDuGp5R7lLSlbaM6HD6m5zNsDMW2iHfvi+4V2Kq2KvRhvewU4lZNZqqfFdEXdTwuLON9edKL66Q///tF/6rbVnJWvNPP4BapgA0bytkckAAAAASUVORK5CYII=" id="A" width="54" height="133" x="0" y="0"/>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABmJLR0QA/wD/AP+gvaeTAAAAUUlEQVQokWN0KTrCwMCwu9eaATdwLT4KZzPhUYcVMP7//59Is8m0gYV4syH+pIYNuMyGAMpswG82ZTYQYzaZNjBC0hIxZpNpA0ooEZNmSbYBAONJGxkbtdGTAAAAAElFTkSuQmCC" id="i" width="16" height="16" x="0" y="0"/>
+    <path id="F" d="M5.1-5q0 .06-.05.14l-.17.19-2.11 1.81L4.22-.42l.06.17.03.1q0 .04-.03.09-.02.03-.08.04t-.14.04a2 2 0 0 1-.6-.02l-.08-.06-.05-.08-1.56-2.69-.54 2.69-.03.08-.1.06-.13.02a2 2 0 0 1-.44 0L.41 0 .34-.06v-.08l1.44-7.19q0-.04.03-.08l.08-.04q.07-.03.16-.03a2 2 0 0 1 .42 0q.08 0 .14.03.05 0 .05.04l.01.08-.87 4.38 2.25-2.03.08-.08.12-.05q.07-.03.17-.03a2 2 0 0 1 .44 0q.08 0 .14.03t.08.05zm0 0"/>
+    <path id="J" d="m1.23-.14-.03.08-.1.06-.13.02a1 1 0 0 1-.44 0L.41 0 .34-.06v-.08l1.44-7.19q0-.04.03-.08l.08-.04q.07-.03.16-.03a2 2 0 0 1 .42 0q.08 0 .14.03.05 0 .05.04l.01.08Zm0 0"/>
+    <path id="N" d="m5.6-6.8-.02.1-.02.12q0 .07-.03.13l-.05.12-.07.1-.1.03H2.6l-.43 2.18H4.5q.06 0 .1.05l.03.13-.02.09-.02.13-.03.12-.04.13-.08.07-.1.03H2l-.5 2.5h2.77q.05 0 .09.05.03.03.03.13v.09l-.06.27-.05.12-.08.08-.1.03H.78Q.7 0 .64-.02l-.1-.06A.2.2 0 0 1 .49-.2.3.3 0 0 1 .5-.37L1.75-6.6q.03-.2.16-.29.14-.09.26-.09h3.3q.12 0 .12.17m0 0"/>
+    <path id="Q" d="M3.98 1.78q0 .05-.03.08l-.1.05-.13.03a2 2 0 0 1-.42 0l-.13-.03-.06-.05-.02-.08.36-1.75.07-.28.07-.28.08-.27.08-.23q-.1.19-.28.39A3 3 0 0 1 2.5 0a1.8 1.8 0 0 1-1.27-.02Q.95-.14.78-.37a2 2 0 0 1-.26-.55 3 3 0 0 1-.08-.72q0-.3.04-.67a5 5 0 0 1 1-2.25q.3-.3.66-.47a2 2 0 0 1 1.69 0q.34.18.6.53l.12-.48q0-.1.1-.13a1 1 0 0 1 .33-.05l.18.02q.07 0 .12.03t.05.05l.01.08Zm.22-5.5a2 2 0 0 0-.54-.55 1.2 1.2 0 0 0-1.2-.04q-.24.15-.43.37a3 3 0 0 0-.51 1.14 4 4 0 0 0-.15 1.08q0 .56.2.81.18.25.54.25.3 0 .6-.15.3-.18.56-.46.25-.3.45-.68.2-.41.31-.88Zm0 0"/>
+    <path id="k" d="m2.05-1.66 2.3-2.67q0-.44-.16-.62-.15-.17-.53-.2v-.2h2.48v.2q-.4 0-.53.09a1 1 0 0 0-.2.2q-.08.1-.08.75v2.84q0 .63.06.75.06.13.2.22t.55.08V0h-2.6v-.22q.49 0 .65-.17t.17-.88v-2.51L2.05-1.1q0 .5.14.68.12.2.56.2V0H.27v-.22q.52 0 .67-.19.15-.18.14-.86V-4.1q0-.62-.06-.73a1 1 0 0 0-.2-.2q-.14-.1-.55-.1v-.22h2.59v.22q-.4 0-.53.08a1 1 0 0 0-.2.2q-.08.1-.08.75Zm0 0"/>
+    <path id="u" d="m4.63-5.36.21 1.47h-.26q-.22-.74-.46-.9Q3.9-5 3.2-5H2.05v3.72q0 .63.06.75.06.13.2.22t.55.08V0H.19v-.22Q.74-.23.9-.39t.17-.88V-4.1q0-.56-.06-.72a.4.4 0 0 0-.24-.22q-.15-.07-.6-.1v-.2Zm0 0"/>
+    <path id="v" d="M1.5-1.14a.6.6 0 0 1 .45.2q.2.2.2.46t-.2.45a.66.66 0 0 1-.92 0 .6.6 0 0 1-.19-.45.64.64 0 0 1 .66-.66m0 0"/>
+    <path id="j" d="M6.45 0H3.03v-.22q.67-.01.9-.17.23-.17.24-.7-1.99 0-2.86-.83a2.8 2.8 0 0 1-.87-2.1q0-.91.51-1.57.53-.68 1.28-.93.77-.26 1.94-.26-.01-.49-.15-.64a1 1 0 0 0-.32-.22 3 3 0 0 0-.67-.08v-.22h3.42v.22q-.69.03-.9.22-.22.18-.25.72 1.26 0 1.98.28.73.29 1.24.92t.51 1.56q0 1.23-.86 2.08-.84.85-2.87.85 0 .51.23.68t.92.2ZM5.3-1.53q.86 0 1.37-.22.52-.24.85-.81.34-.6.34-1.46 0-.8-.34-1.36a2 2 0 0 0-.86-.76q-.51-.2-1.36-.2Zm-1.13 0v-4.81q-.9 0-1.4.21-.5.23-.82.75-.32.54-.32 1.36 0 .93.39 1.54.38.6.9.78.53.17 1.25.17m0 0"/>
+    <path id="w" d="M5.5-1.53 4.94 0H.25v-.22a21 21 0 0 0 2.92-3.06q.84-1.2.85-2.2 0-.75-.47-1.24a1.5 1.5 0 0 0-1.11-.48q-.58 0-1.05.34t-.69 1H.48q.15-1.08.75-1.66.61-.57 1.52-.57.96 0 1.6.62.67.61.67 1.45 0 .62-.29 1.2-.44.96-1.4 2.02A49 49 0 0 1 1.5-.9h2.08q.62.01.87-.04.27-.05.47-.19.2-.13.36-.4Zm0 0"/>
+    <mask id="D">
+      <g filter="url(#a)">
+        <use xlink:href="#b" filter="url(#c)" transform="matrix(.36255 0 0 .36776 252.43 165.25)"/>
+      </g>
+    </mask>
+    <mask id="G">
+      <g filter="url(#a)">
+        <use xlink:href="#d" filter="url(#c)" transform="matrix(.36255 0 0 .36225 293.19 182.4)"/>
+      </g>
+    </mask>
+    <mask id="K">
+      <g filter="url(#a)">
+        <use xlink:href="#e" filter="url(#c)" transform="matrix(.36255 0 0 .36225 273.65 265.58)"/>
+      </g>
+    </mask>
+    <mask id="O">
+      <g filter="url(#a)">
+        <use xlink:href="#f" filter="url(#c)" transform="matrix(.36255 0 0 .36776 293.19 231.18)"/>
+      </g>
+    </mask>
+    <clipPath id="y">
+      <path d="M272.1 128.16H298V243h-25.9Zm0 0"/>
+    </clipPath>
+    <clipPath id="B">
+      <path d="M233.44 117.85h104v18.67h-104Zm0 0"/>
+    </clipPath>
+    <clipPath id="h">
+      <path d="M0 0h6v6H0z"/>
+    </clipPath>
+    <filter id="a" width="100%" height="100%" x="0%" y="0%">
+      <feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+    </filter>
+    <filter id="c" width="100%" height="100%" x="0%" y="0%">
+      <feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0.2126 0.7152 0.0722 0 0"/>
+    </filter>
+    <pattern id="C" width="6" height="6" x="0" y="0" patternTransform="matrix(.99886 0 0 -.99886 0 839.48)" patternUnits="userSpaceOnUse" viewBox="0 0 6 6">
+      <use xlink:href="#g"/>
+    </pattern>
+    <g id="g" clip-path="url(#h)">
+      <use xlink:href="#i" transform="matrix(.375 0 0 -.375 0 6)"/>
+    </g>
+  </defs>
+  <use xlink:href="#j" x="395.98" y="283.49"/>
+  <use xlink:href="#k" x="405.45" y="283.49"/>
+  <use xlink:href="#u" x="411.91" y="283.49"/>
+  <use xlink:href="#v" x="415.5" y="283.49"/>
+  <use xlink:href="#w" x="421.5" y="283.49"/>
+  <g clip-path="url(#y)">
+    <use xlink:href="#A" transform="matrix(.4796 0 0 .86398 272.1 128.15)"/>
+  </g>
+  <g clip-path="url(#B)">
+    <path fill="url(#C)" fill-rule="evenodd" d="M233.44 136.52h104v-18.68h-104Zm0 0"/>
+  </g>
+  <path fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.25" d="M233.44 136.52h104"/>
+  <path fill-rule="evenodd" stroke="#000" stroke-miterlimit="10" d="M277.94 245.83c0-3.83 3.35-6.92 7.47-6.92 4.13 0 7.48 3.1 7.48 6.92s-3.35 6.91-7.48 6.91c-4.12 0-7.47-3.1-7.47-6.91Zm0 0"/>
+  <path fill="none" stroke="#000" stroke-miterlimit="10" stroke-width=".5" d="M211 247.2h139.35"/>
+  <path d="M252.21 262.98h62.44v.5h-62.44Zm56.57-3.46 6.36 3.71-6.36 3.72a.25.25 0 0 1-.34-.1.25.25 0 0 1 .09-.33l5.99-3.5v.43l-6-3.5a.25.25 0 0 1-.08-.34.25.25 0 0 1 .34-.09m0 0"/>
+  <g mask="url(#D)">
+    <use xlink:href="#E" transform="matrix(.36255 0 0 .36776 252.43 165.25)"/>
+  </g>
+  <use xlink:href="#F" x="259.67" y="175.7"/>
+  <g mask="url(#G)">
+    <use xlink:href="#I" transform="matrix(.36255 0 0 .36225 293.19 182.4)"/>
+  </g>
+  <use xlink:href="#J" x="300.43" y="192.84"/>
+  <g mask="url(#K)">
+    <use xlink:href="#M" transform="matrix(.36255 0 0 .36225 273.65 265.58)"/>
+  </g>
+  <use xlink:href="#N" x="280.89" y="276.06"/>
+  <g mask="url(#O)">
+    <use xlink:href="#P" transform="matrix(.36255 0 0 .36776 293.19 231.18)"/>
+  </g>
+  <use xlink:href="#Q" x="300.43" y="241.62"/>
+</svg>
