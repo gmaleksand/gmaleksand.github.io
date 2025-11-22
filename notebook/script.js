@@ -188,9 +188,6 @@ async function loadNote(noteName) {
             ]
         });
 
-        // Setup Hover Previews for the new links
-        setupLinkPreviews();
-
         // Close mobile sidebar if open
         document.getElementById('sidebar').classList.remove('open');
 
@@ -299,48 +296,5 @@ function filterFileMap(files, term, currentPath = '') {
             return dirName.toLowerCase().includes(term) || filteredContents.length > 0;
         }
         return false;
-    });
-}
-
-// 11. Link Preview Logic
-function setupLinkPreviews() {
-    const links = document.querySelectorAll('.internal-link');
-    const tooltip = document.getElementById('preview-tooltip');
-
-    links.forEach(link => {
-        link.addEventListener('mouseenter', async (e) => {
-            const noteName = e.target.getAttribute('data-link');
-            const filePath = findFileByName(noteName);
-            
-            if (!filePath) return;
-            
-            const fileName = `${vaultFolder}${filePath}`;
-
-            try {
-                const res = await fetch(fileName);
-                if (res.ok) {
-                    const text = await res.text();
-                    // Render a snippet (first 200 chars)
-                    let snippet = marked.parse(text.substring(0, 300) + "...");
-                    tooltip.innerHTML = DOMPurify.sanitize(snippet);
-                    tooltip.classList.remove('hidden');
-                    
-                    // Position logic
-                    const rect = e.target.getBoundingClientRect();
-                    tooltip.style.top = `${rect.bottom + 5}px`;
-                    tooltip.style.left = `${rect.left}px`;
-                }
-            } catch (err) {
-                // Ignore preview errors
-            }
-        });
-
-        link.addEventListener('mouseleave', () => {
-            tooltip.classList.add('hidden');
-        });
-        link.addEventListener('click', () => {
-            tooltip.classList.add('hidden');
-        });
-
     });
 }

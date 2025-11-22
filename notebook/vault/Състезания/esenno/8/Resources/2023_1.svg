@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="595.32" height="250" viewBox="0 0 595.32 250">
+  <defs>
+    <path id="p" d="M8.47-.23c-.55-.04-.67-.16-1.1-1.04L4.4-8.07h-.23L1.67-2.2C.91-.44.75-.25.2-.23V0h2.36v-.23q-.84.02-.82-.49.01-.22.1-.47l.56-1.4h3.14l.49 1.15c.14.33.23.64.23.8 0 .31-.2.4-.84.4V0h3.06ZM2.59-3.08l1.38-3.3 1.39 3.3Zm0 0"/>
+    <path id="o" d="M.2-7.7c1 .06 1.14.17 1.16 1.08v5.3C1.34-.4 1.19-.26.2-.22V0h4c.92 0 1.78-.25 2.24-.66.42-.39.67-.92.67-1.5q0-.8-.6-1.36a3 3 0 0 0-1.45-.65c.63-.16.88-.28 1.16-.53.3-.27.48-.7.48-1.2 0-1.33-1.08-2.04-3.14-2.04H.2Zm2.38 3.8c1.15 0 1.72.07 2.14.24a1.5 1.5 0 0 1 1.01 1.52q0 .96-.73 1.39c-.4.2-.87.31-1.67.31-.58 0-.75-.1-.75-.5Zm0-.48v-2.74c.01-.27.06-.35.26-.36h.54c1.32-.05 2.1.56 2.1 1.64 0 .93-.62 1.45-1.76 1.45Zm0 0"/>
+    <path id="s" d="m7.44-5.4-.11-2.7h-.25q-.13.4-.52.4-.17 0-.47-.1-.87-.3-1.75-.3a4.2 4.2 0 0 0-2.71 1.02A4.2 4.2 0 0 0 .32-3.9C.33-1.47 1.93.17 4.3.17c1.36 0 2.55-.56 3.28-1.53l-.21-.2A3.7 3.7 0 0 1 4.7-.36a3 3 0 0 1-1.95-.69c-.66-.6-1.03-1.67-1.03-3.01 0-2.17 1.12-3.57 2.86-3.57.69 0 1.31.25 1.78.72.39.4.56.72.8 1.5Zm0 0"/>
+    <path id="i" d="M4.83-3.62q.28.2.45.5t.28.8l.14.7.14.57q.08.25.2.4.1.17.26.24.14.09.42.13L6.66 0H5.03a8 8 0 0 1-.33-1.25l-.26-1.23q-.07-.33-.16-.55a1 1 0 0 0-.22-.33.6.6 0 0 0-.3-.16q-.15-.04-.38-.04H2.7L2.3-1.7q-.07.22-.08.36l-.05.54q0 .2.05.3.06.08.17.14.12.05.42.08L2.75 0H.33L.4-.28a1 1 0 0 0 .32-.13 1 1 0 0 0 .2-.22q.07-.13.13-.34l.19-.78 1-4.52q.13-.57.13-.92 0-.27-.15-.39a1 1 0 0 0-.42-.14L1.87-8h2.61q.61 0 1 .08a2 2 0 0 1 .68.22q.27.15.46.37.19.24.29.53t.09.61q0 .9-.55 1.55-.54.63-1.62.95ZM3.5-4.07q.86 0 1.34-.24.5-.23.79-.75a2.3 2.3 0 0 0 .23-1.56 1 1 0 0 0-.13-.33 1 1 0 0 0-.18-.23 1 1 0 0 0-.3-.17 2 2 0 0 0-.4-.11 5 5 0 0 0-1.29 0l-.75 3.39Zm0 0"/>
+    <path id="m" d="M3.05-1.1v.23l.03.15q0 .06.04.11l.08.08q.04.05.13.08t.2.04a5 5 0 0 0 .75.05V0H.98v-.36l.43-.02.48-.06.13-.06.09-.08.06-.1a1 1 0 0 0 .06-.41v-2.99q0-.15-.06-.22A.2.2 0 0 0 2-4.38q-.15 0-.4.15-.24.12-.65.39l-.1-.2-.08-.2 1.01-.56 1.03-.56h.25l-.01.42v.67Zm0 0"/>
+    <path id="r" d="M3.02-.67q.2 0 .3-.02.13 0 .2-.06t.12-.16l.14-.28h.4q-.05.3-.05.6L4.09 0H.56v-.22a7 7 0 0 1 .53-.87 7 7 0 0 1 .86-.97l.63-.66q.25-.28.39-.5a1.4 1.4 0 0 0 .25-.8q0-.2-.06-.37a1 1 0 0 0-.18-.31 1 1 0 0 0-.28-.2 1 1 0 0 0-.4-.07 1 1 0 0 0-.66.22q-.25.21-.39.6H.7v-.82a6 6 0 0 1 1.78-.42q.44 0 .74.1t.5.27q.18.16.26.4.1.23.1.5a2 2 0 0 1-.11.57q-.05.16-.14.28t-.24.29q-.1.14-.26.3-.16.19-.36.38l-.42.42-.42.43q-.21.2-.38.4-.16.2-.27.38Zm0 0"/>
+    <path id="n" d="M9.17-7.83H6.78v.19c.64.06.86.2.86.56 0 .19-.31 1.4-.89 3.44l-.16.58C6.06-1.1 5.3-.28 4-.28c-1 0-1.7-.56-1.7-1.4 0-.43.35-1.73 1.24-4.87.25-.83.44-.98 1.27-1.1v-.18H1.52v.19c.8.08.93.16.93.5q0 .22-.08.53L1.74-4.3a11 11 0 0 0-.51 2.55c0 1.14 1.1 1.97 2.6 1.97 1.59 0 2.59-.86 3.1-2.66l1-3.4c.46-1.57.5-1.63 1.25-1.8Zm0 0"/>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAAnCAAAAAB7mASxAAAAAmJLR0QA/4ePzL8AAAAYSURBVEiJ7cEBAQAAAIIg/69uSEABABwZCP0AAf6W7rMAAAAASUVORK5CYII=" id="b" width="58" height="39" x="0" y="0"/>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAAxCAAAAAC3nAuRAAAAAmJLR0QA/4ePzL8AAAAaSURBVEiJ7cExAQAAAMKg9U9tCy+gAAAA4GsOjAAB/UbgvQAAAABJRU5ErkJggg==" id="d" width="75" height="49" x="0" y="0"/>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAAxCAAAAAC3nAuRAAAAAmJLR0QA/4ePzL8AAAAaSURBVEiJ7cExAQAAAMKg9U9tCy+gAAAA4GsOjAAB/UbgvQAAAABJRU5ErkJggg==" id="e" width="75" height="49" x="0" y="0"/>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAAxCAAAAAC3nAuRAAAAAmJLR0QA/4ePzL8AAAAaSURBVEiJ7cExAQAAAMKg9U9tCy+gAAAA4GsOjAAB/UbgvQAAAABJRU5ErkJggg==" id="f" width="75" height="49" x="0" y="0"/>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAAnCAAAAAB7mASxAAAAAmJLR0QA/4ePzL8AAAAYSURBVEiJ7cEBAQAAAIIg/69uSEABABwZCP0AAf6W7rMAAAAASUVORK5CYII=" id="g" width="58" height="39" x="0" y="0"/>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAAxCAAAAACn/EVNAAAAAmJLR0QA/4ePzL8AAAAZSURBVEiJ7cEBAQAAAIIg/69uSEABAACnBgwPAAHkgJajAAAAAElFTkSuQmCC" id="h" width="62" height="49" x="0" y="0"/>
+    <clipPath id="j">
+      <path d="M404 199h4v5.93h-4Zm0 0"/>
+    </clipPath>
+  </defs>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M378.97 221.98h40.7v-12.12h-40.7Zm0 0"/>
+  <use xlink:href="#i" x="396.22" y="202.31"/>
+  <g clip-path="url(#j)">
+    <use xlink:href="#m" x="403.41" y="204.71"/>
+  </g>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" d="M435.13 150.52v37.78"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M429.54 160.85v15.6"/>
+  <use xlink:href="#n" x="417.91" y="159.64"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" d="M360.37 169.33h69.17m5.59 0 75.22.1m-90.52 45.43h35.89m-95.08 0h18.45m-19.39.1v-45.63"/>
+  <use xlink:href="#o" x="435.17" y="209.02"/>
+  <use xlink:href="#p" x="347.31" y="216.81"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M455.23 220.74h40.74v-12.08h-40.74Zm0 0"/>
+  <use xlink:href="#i" x="473.44" y="200.39"/>
+  <use xlink:href="#r" x="480.87" y="202.79"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" d="M510.35 214.66v-45.22m-13.48 45.22h13.48"/>
+  <use xlink:href="#s" x="515.87" y="216.81"/>
+  <path fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M358.88 215.23a1.8 1.8 0 1 1 3.6 0 1.8 1.8 0 0 1-3.6 0ZM508.4 215a1.8 1.8 0 1 1 3.6 0 1.8 1.8 0 0 1-3.6 0Zm-71.69 0a1.8 1.8 0 1 1 3.6 0 1.8 1.8 0 0 1-3.6 0Zm0 0"/>
+</svg>
