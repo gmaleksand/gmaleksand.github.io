@@ -246,18 +246,6 @@ function processWikiLinks(html) {
 
 // 9. Event Listeners
 function setupEventListeners() {
-    // Dark Mode
-    const themeToggle = document.getElementById('theme-toggle');
-    themeToggle.addEventListener('click', () => {
-        document.body.classList.toggle('dark-mode');
-        localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
-    });
-
-    // Check saved theme
-    if (localStorage.getItem('theme') === 'dark') {
-        document.body.classList.add('dark-mode');
-    }
-
     // Search
     const searchBox = document.getElementById('search-box');
     searchBox.addEventListener('input', (e) => {

@@ -6,9 +6,10 @@
     --border-color: #ddd;
     --code-bg: #f5f5f5;
     --img-filter: none;
+    --darkgray:#4e4e4e;
 }
 
-body.dark-mode {
+[data-theme="dark"] {
     --bg-color: #1e1e1e;
     --text-color: #e0e0e0;
     --sidebar-bg: #252526;
@@ -16,8 +17,16 @@ body.dark-mode {
     --border-color: #444;
     --code-bg: #2d2d2d;
     /* Invert color but rotate hue back so colors look natural-ish */
-    --img-filter: invert(1) hue-rotate(180deg); 
+    --img-filter: invert(1) hue-rotate(180deg);
 }
+
+:root[data-theme="dark"] .toggle-switch>#dayIcon{display:none}
+:root[data-theme="dark"] .toggle-switch>#nightIcon,:root .toggle-switch>#dayIcon{display:inline}
+:root .toggle-switch>#nightIcon{display:none}
+
+.toggle-switch{cursor:pointer;width:20px;height:20px;text-align:inherit;background:0 0;border:none;margin:0 10px;padding:0;position:relative}
+.toggle-switch img{transition:opacity .1s;position:absolute}
+.toggle-switch input {opacity: 0;width: 0;height: 0;}
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -30,10 +39,7 @@ body {
 }
 
 /* Layout */
-.app-container {
-    display: flex;
-    height: 100vh;
-}
+.app-container {display: flex;height: 100vh;}
 
 /* Sidebar */
 #sidebar {

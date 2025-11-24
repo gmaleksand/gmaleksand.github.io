@@ -22,8 +22,11 @@
         <nav id="sidebar">
             <div class="nav-header">
                 <h3>Записки</h3>
-                <button id="theme-toggle">🌙</button>
-            </div>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <img id="nightIcon" src="/light_mode_button.svg" width="20" height="20" style="filter:none;">
+                    <img id="dayIcon" src="/dark_mode_button.svg" width="20" height="20">
+                </label>            </div>
             <input type="text" id="search-box" placeholder="Search notes...">
             <ul id="file-list"></ul>
         </nav>
@@ -43,5 +46,6 @@
     <div id="preview-tooltip" class="hidden"></div>
 
     <script src="script.js"></script>
+    <script type="text/javascript" src="/darkmode.js"></script>
 </body>
 </html>
