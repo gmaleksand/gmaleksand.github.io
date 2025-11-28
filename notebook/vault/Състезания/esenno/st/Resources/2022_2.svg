@@ -91,7 +91,7 @@
 <path fill="none" stroke-width="1.8" stroke-linecap="butt" stroke-linejoin="round" stroke="rgb(100%, 100%, 100%)" stroke-opacity="1" stroke-miterlimit="10" d="M 88.500928 36.295438 L 99.300076 47.094626 " transform="matrix(0.994002, 0, 0, -0.993637, 385.979118, 748.462912)"/>
 <path fill="none" stroke-width="0.6006" stroke-linecap="butt" stroke-linejoin="round" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 88.500928 38.697441 L 94.898676 44.696554 " transform="matrix(0.994002, 0, 0, -0.993637, 385.979118, 748.462912)"/>
 <path fill="none" stroke-width="0.6006" stroke-linecap="butt" stroke-linejoin="round" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 88.500928 35.096401 L 94.898676 41.095514 " transform="matrix(0.994002, 0, 0, -0.993637, 385.979118, 748.462912)"/>
-<text x="481.925163" y="708.34881" font-size="12px" font-family="Times New Roman">~</text>
+<text x="481.925163" y="708.34881" font-size="12px" font-family="Times New Roman">\ </text>
 <g><use xlink:href="#glyph-21-0" x="490.915911" y="708.34881"/></g>
 </g>
 </svg>

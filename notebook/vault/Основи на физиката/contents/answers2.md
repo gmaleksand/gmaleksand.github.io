@@ -4,17 +4,17 @@
 
 Глава 11. Електростатика
 
-44.2 $F = 9 \times 10^8~\mathrm{N}$; $G = 3 \times 10^4~\mathrm{N}$; $\frac{F}{G} = 3 \times 10^5$.
+44.2 $F = 9 \times 10^8\ \mathrm{N}$; $G = 3 \times 10^4\ \mathrm{N}$; $\frac{F}{G} = 3 \times 10^5$.
 
 44.3 $6.25 \times 10^{12}$ електрона.
 
 44.5 $q > 1 \, \mu\text{C}$.
 
-44.6 $e = \frac{mg}{2E} = 16 \times 10^{-19}~\mathrm{C}$.
+44.6 $e = \frac{mg}{2E} = 16 \times 10^{-19}\ \mathrm{C}$.
 
-44.7 $1.7 \times 10^7~\mathrm{N}$.
+44.7 $1.7 \times 10^7\ \mathrm{N}$.
 
-44.8 $1.9 \times 10^5~\mathrm{N/C}$.
+44.8 $1.9 \times 10^5\ \mathrm{N/C}$.
 
 44.9 $E_x = -\frac{3\sqrt{3}q}{8\pi^2\varepsilon_0 r^2}$; $E_y = 0$.
 
@@ -24,21 +24,21 @@
  a) $E = 0$; 
  б) $E = \frac{q}{4\pi\varepsilon_0 r^2}$.
 
-45.2 $E = \frac{\rho}{3\varepsilon_0} r = 3.8 \times 10^3~\mathrm{N} \cdot \text{C}$.
+45.2 $E = \frac{\rho}{3\varepsilon_0} r = 3.8 \times 10^3\ \mathrm{N} \cdot \text{C}$.
 
-45.3 $ F = \frac{q\sigma}{2\varepsilon_0} = 17 \times 10^{-4}~\mathrm{N}$.
+45.3 $ F = \frac{q\sigma}{2\varepsilon_0} = 17 \times 10^{-4}\ \mathrm{N}$.
 
 45.4 a) $E = \frac{\lambda}{2\pi\varepsilon_0 r} $; 
  б) $E = \frac{\lambda}{2\pi\varepsilon_0 R^2} r$.
 
-45.5 a) $C = \frac{e}{\pi t_0^3} = 3.4 \times 10^{11}~\mathrm{C/m^3} $; 
- б) $E = \frac{5e}{4\pi\varepsilon_0 t_0^2} \exp(-2) = 3.5 \times 10^{11}~\mathrm{N/C}$.
+45.5 a) $C = \frac{e}{\pi t_0^3} = 3.4 \times 10^{11}\ \mathrm{C/m^3} $; 
+ б) $E = \frac{5e}{4\pi\varepsilon_0 t_0^2} \exp(-2) = 3.5 \times 10^{11}\ \mathrm{N/C}$.
 
-46.1 $200~\mathrm{eV}$.
+46.1 $200\ \mathrm{eV}$.
 
-46.2 $9 \times 10^{-5}~\mathrm{J}$.
+46.2 $9 \times 10^{-5}\ \mathrm{J}$.
 
-46.3 $4.6 \times 10^{-14}~\mathrm{m}$.
+46.3 $4.6 \times 10^{-14}\ \mathrm{m}$.
 
 46.4 $\varphi = \frac{q}{4\pi\varepsilon_0 t} \ln \left(\frac{t + \sqrt{t^2 + y_0^2}}{y_0} \right)$.
 
@@ -47,36 +47,36 @@
 46.6 $\varphi = \frac{q}{8\pi\varepsilon_0 R} \left(3 - \frac{r^2}{R^2} \right) $; $r \leq R$; 
  $\varphi = \frac{q}{4\pi\varepsilon_0 r} $; $r \geq R$.
 
-47.1 $200~\mathrm{V/m}$, на юг.
+47.1 $200\ \mathrm{V/m}$, на юг.
 
 47.2 $7.2 \times 10^8$ електрона.
 
-47.3 $E_1 = \frac{E_2 R_2}{R_1} = 4~\mathrm{kV/m}$.
+47.3 $E_1 = \frac{E_2 R_2}{R_1} = 4\ \mathrm{kV/m}$.
 
-48.1 $0.1~\mathrm{pF}$.
+48.1 $0.1\ \mathrm{pF}$.
 
-48.2 $2~\mathrm{pF}$.
+48.2 $2\ \mathrm{pF}$.
 
-48.4 $3~\mathrm{pF}$.
+48.4 $3\ \mathrm{pF}$.
 
 48.5 $10$.
 
-48.6 $5.7~\mathrm{pF}$.
+48.6 $5.7\ \mathrm{pF}$.
 
-48.7 $\varphi_D = \frac{1}{3} (\varphi_A + \varphi_B + \varphi_C) = 70~\mathrm{V}$.
+48.7 $\varphi_D = \frac{1}{3} (\varphi_A + \varphi_B + \varphi_C) = 70\ \mathrm{V}$.
 
 48.8 $\frac{2\pi\varepsilon_0}{\ln(R_2/R_1)}$.
 
-49.3 $1.7~\mathrm{mJ}$.
+49.3 $1.7\ \mathrm{mJ}$.
 
-49.4 $1~\mathrm{mJ}$, отделя се количество топлина $Q = 1~\mathrm{mJ}$.
+49.4 $1\ \mathrm{mJ}$, отделя се количество топлина $Q = 1\ \mathrm{mJ}$.
 
-49.5 a) $0.48~\mathrm{MeV}$; 
+49.5 a) $0.48\ \mathrm{MeV}$; 
  б) нула.
 
-49.6 $2.2 \times 10^{-6}~\mathrm{J}$.
+49.6 $2.2 \times 10^{-6}\ \mathrm{J}$.
 
-49.7 $W = \frac{\varphi^2 R}{2k} = 5 \times 10^{-8}~\mathrm{J}$.
+49.7 $W = \frac{\varphi^2 R}{2k} = 5 \times 10^{-8}\ \mathrm{J}$.
 
 49.8 $ A = \frac{q^2}{16\pi\varepsilon_0 R}$.
 
@@ -84,9 +84,9 @@
 
 49.10 $W = W_1 + W_2 + W_2 = \frac{1}{4\pi\varepsilon_0} \left(\frac{q_1^2}{2R_1} + \frac{q_2^2}{2R_2} + \frac{q_1 q_2}{R_2} \right)$.
 
-50.1 б) $E_b = 1 \times 10^{-5}~\mathrm{V/m}$.
+50.1 б) $E_b = 1 \times 10^{-5}\ \mathrm{V/m}$.
 
-50.2 $1.1~\mathrm{J}$.
+50.2 $1.1\ \mathrm{J}$.
 
 50.3 $ r = \left(\frac{p}{4\pi\varepsilon_0 E_0} \right)^{1/3}$.
 
@@ -96,7 +96,7 @@
 
 52.1 $6 \times 10^{15}$ електрона.
 
-52.2 $ 6.5 \times 10^{-7}~\mathrm{A/m^2}$.
+52.2 $ 6.5 \times 10^{-7}\ \mathrm{A/m^2}$.
 
 52.3 $2.5 \times 10^8 \, \Omega$.
 
@@ -108,11 +108,11 @@
 
 58.3 5 пъти.
 
-58.7 $10~\mathrm{W}$.
+58.7 $10\ \mathrm{W}$.
 
-58.8 $44~\mathrm{^\circ C}$.
+58.8 $44\ \mathrm{^\circ C}$.
 
-58.9 $Q = 0.32~\mathrm{J}$.
+58.9 $Q = 0.32\ \mathrm{J}$.
 
 59.1 $2 \, \Omega$.
 
@@ -120,24 +120,24 @@
 
 59.3 $0.01 \, \Omega$.
 
-59.4 a) $1~\mathrm{A}$; 
+59.4 a) $1\ \mathrm{A}$; 
  б) $1 \, \Omega$.
 
-59.5 $1.44~\mathrm{W}$ и $1.8~\mathrm{W}$.
+59.5 $1.44\ \mathrm{W}$ и $1.8\ \mathrm{W}$.
 
-59.6 $r = 1 \, \Omega$; $\varepsilon = 3~\mathrm{V}$.
+59.6 $r = 1 \, \Omega$; $\varepsilon = 3\ \mathrm{V}$.
 
 59.7 $60$ часа.
 
-59.8 $\varepsilon = 12~\mathrm{V}$; $r = 0.1 \, \Omega$.
+59.8 $\varepsilon = 12\ \mathrm{V}$; $r = 0.1 \, \Omega$.
 
 59.9 $0.06 \, \Omega$.
 
-59.10 $ P_{\max} = \frac{\varepsilon^2}{4r} = 11~\mathrm{W}$.
+59.10 $ P_{\max} = \frac{\varepsilon^2}{4r} = 11\ \mathrm{W}$.
 
-60.1 $0.5~\mathrm{A}$.
+60.1 $0.5\ \mathrm{A}$.
 
-60.2 $I_1 = 0.01~\mathrm{A}$; $I_2 = 0.05~\mathrm{A}$; $I_3 = 0.04~\mathrm{A}$.
+60.2 $I_1 = 0.01\ \mathrm{A}$; $I_2 = 0.05\ \mathrm{A}$; $I_3 = 0.04\ \mathrm{A}$.
 
 60.3 $I_1 = \frac{\varepsilon_1}{R_1} - \frac{\varepsilon_2 - \varepsilon_1}{R_2} $; 
  $I_2 = \frac{\varepsilon_2 - \varepsilon_1}{R_2} $; 
@@ -160,7 +160,7 @@ $\eta (I = \text{const}) = \frac{1}{2RC} \left(t + \sqrt{t^2 + \frac{1}{2}} \rig
 
 62.2. 10 m/s. 62.3. a) $1,8 \cdot 10^7$ m/s; 6) $5,8 \cdot 10^{-13}$ N, на север; в) $3,5 \cdot 10^{13}$ пъти.
 
-62.4. $\vec F = -(6,4 \cdot 10^{-14}~\mathrm{N}) \vec k$.
+62.4. $\vec F = -(6,4 \cdot 10^{-14}\ \mathrm{N}) \vec k$.
 
 62.5. $\vec F = -(12,8 \cdot 10^{-14} N) \vec k.$
 
@@ -276,7 +276,7 @@ $\eta (I = \text{const}) = \frac{1}{2RC} \left(t + \sqrt{t^2 + \frac{1}{2}} \rig
 
 78.6. 100 пъти.
 
-80.1. $I_1 = I_2 = 0,002~\mathrm{W/m^2}$.
+80.1. $I_1 = I_2 = 0,002\ \mathrm{W/m^2}$.
 
 80.2. 600 m.
 
@@ -438,7 +438,7 @@ $\eta (I = \text{const}) = \frac{1}{2RC} \left(t + \sqrt{t^2 + \frac{1}{2}} \rig
  
 105.2. 500 m/s.
 
-105.3. $p = 5.3 \cdot 10^{-20}~\mathrm{kg\cdot m/s}$; $v = 3.2 \cdot 10^7$ m/s; $E_k = 5.2$ MeV.
+105.3. $p = 5.3 \cdot 10^{-20}\ \mathrm{kg\cdot m/s}$; $v = 3.2 \cdot 10^7$ m/s; $E_k = 5.2$ MeV.
 
 105.4. $E_{\text{min}} = \hbar \omega$. Точният резултат е $E_{\text{min}} = \frac{1}{2}\hbar \omega$.
 

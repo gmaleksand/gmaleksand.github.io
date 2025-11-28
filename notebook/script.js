@@ -143,7 +143,7 @@ async function loadNote(noteName) {
     const filePath = findFileByName(noteName);
     
     if (!filePath) {
-        document.getElementById('markdown-output').innerHTML = `<h1>404</h1><p>Note "${noteName}" not found.</p>`;
+        document.getElementById('markdown-output').innerHTML = `<h1>404</h1><p>Бележката "${noteName}" не е намерена.</p>`;
         return;
     }
     
@@ -163,7 +163,13 @@ async function loadNote(noteName) {
         const text = await res.text();
         
         // Parse Markdown
-        let html = marked.parse(text);
+        const markedOptions = {
+        breaks: true,
+        gfm: true,
+        // Disable underscore emphasis
+        em: '*', // Only use asterisks for emphasis, not underscores
+        };
+        let html = marked.parse(text, markedOptions);
         
         // Process images before sanitization
         html = processImages(html, fullPath);
@@ -192,7 +198,7 @@ async function loadNote(noteName) {
         document.getElementById('sidebar').classList.remove('open');
 
     } catch (err) {
-        document.getElementById('markdown-output').innerHTML = `<h1>404</h1><p>Note "${noteName}" not found.</p>`;
+        document.getElementById('markdown-output').innerHTML = `<h1>404</h1><p>Бележката "${noteName}" не е намерена.</p>`;
     }
 }
 

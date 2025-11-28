@@ -18,7 +18,7 @@ B) Xmax = 4,5 m.
 
 1.9. 1,3 $\mathrm{m/s^2}$.
 
-1.10. 6,1.$10^5~\mathrm{m/s^2}$.
+1.10. 6,1.$10^5\ \mathrm{m/s^2}$.
 
 1.11. 60 m.
 
@@ -226,7 +226,7 @@ Jog 8.7. Pl mv og 2
 
 13.3. a)=169 E=1210,72; 6) след 41 удара.
 
-13.4. a) $u = \frac{\sqrt{2}}{2}v_1 = 3,\!5~\mathrm{\frac{m}{s}}$; 6) 3,5 m/s; B) 1,25 J.
+13.4. a) $u = \frac{\sqrt{2}}{2}v_1 = 3,\!5\ \mathrm{\frac{m}{s}}$; 6) 3,5 m/s; B) 1,25 J.
 
 14.1. $M_1$ = 3,54 N-m; $M_2$ = 2 Nm, $M_1$ = 0;
 
@@ -279,7 +279,7 @@ $E = moR 8 1+cos^2 a + 3A$
 18.4. $E, = (60^2 + R^2) B$
 
 15.9. $I = \frac{R^2}{a}((m_2 - m_1\sin\alpha)g - (m_1+m_2)a)$;
-$I\approx 0,\!026~\mathrm{kg\cdot m^2}$;
+$I\approx 0,\!026\ \mathrm{kg\cdot m^2}$;
 
 $T_1$ = m(a+gsina) = 10,5 N; $T_2$ = m(g-a) = 16 N.
 
