@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="750">
+  <defs>
+    <marker id="c" markerHeight="10" markerUnits="strokeWidth" markerWidth="10" orient="auto" refX="9" refY="3">
+      <path d="M0 0v6l9-3z"/>
+    </marker>
+    <marker id="b" markerHeight="8" markerUnits="strokeWidth" markerWidth="8" orient="auto" refX="7" refY="4">
+      <path fill="#D9004C" d="m0 0 8 4-8 4z"/>
+    </marker>
+    <marker id="d" markerHeight="8" markerUnits="strokeWidth" markerWidth="8" orient="auto" refX="7" refY="4">
+      <path fill="#08B" d="m0 0 8 4-8 4z"/>
+    </marker>
+    <linearGradient id="a" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f0f0;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#bfbfbf;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <path fill="#fff" d="M0 0h650v750H0z"/>
+  <path fill="url(#a)" d="M160 20h200v30H160z"/>
+  <path stroke="#000" d="M160 50h200"/>
+  <path stroke="#000" stroke-width="1.5" d="M250 50v420"/>
+  <path fill="none" stroke="#08B" stroke-dasharray="8,5" stroke-width="2" d="M150 460a420 420 0 0 0 400-120"/>
+  <path stroke="#888" stroke-width="4" d="m250 50 164 309"/>
+  <path stroke="#000" stroke-dasharray="6,4" stroke-width="1.5" d="m530 615-83 45M447 660l-86-196"/>
+  <path stroke="#D9004C" stroke-width="5" marker-end="url(#b)" d="M447 421 330 200"/>
+  <path stroke="#D9004C" stroke-width="5" marker-end="url(#b)" d="M447 421v239"/>
+  <path stroke="#EA7E98" stroke-width="4" marker-end="url(#b)" d="m447 421 83 194"/>
+  <path stroke="#EA7E98" stroke-width="4" marker-end="url(#b)" d="m447 421-86 43"/>
+  <circle cx="447" cy="421" r="12" fill="#111"/>
+  <path stroke="#000" marker-end="url(#c)" d="M250 330v140"/>
+  <text x="240" y="320" font-family="Times New Roman, serif" font-size="28" font-style="italic" text-anchor="end">L</text>
+  <path fill="none" stroke="#000" stroke-width="1.5" marker-end="url(#c)" d="M250 150q30 0 45-10"/>
+  <text x="270" y="180" font-family="Times New Roman, serif" font-size="24" font-style="italic">θ</text>
+  <path fill="none" stroke="#000" stroke-width="1.5" marker-end="url(#c)" d="M485 520a80 80 0 0 1-35 10"/>
+  <text x="460" y="565" font-family="Times New Roman, serif" font-size="24" font-style="italic">θ</text>
+  <text x="365" y="235" font-family="Times New Roman, serif" font-size="28" font-style="italic">T</text>
+  <text x="440" y="425" font-family="Times New Roman, serif" font-size="28" font-style="italic">m</text>
+  <text x="395" y="675" font-family="Times New Roman, serif" font-size="28"><tspan font-style="italic">m</tspan>g</text>
+  <text x="505" y="535" font-family="Times New Roman, serif" font-size="28"><tspan font-style="italic">m</tspan>g cos <tspan font-style="italic">θ</tspan></text>
+  <text x="270" y="500" font-family="Times New Roman, serif" font-size="28"><tspan font-style="italic">m</tspan>g sin <tspan font-style="italic">θ</tspan></text>
+  <path fill="none" stroke="#000" stroke-width="1.5" marker-end="url(#c)" d="M290 445q40 0 80-15"/>
+  <text x="315" y="430" font-family="Times New Roman, serif" font-size="28" font-style="italic">x</text>
+  <g fill="#08B" font-family="Times New Roman, serif" font-size="24">
+    <text x="420" y="70">Приемаме, че</text>
+    <text x="420" y="100">нишката е</text>
+    <text x="420" y="130">безмасова и</text>
+    <text x="420" y="160">неразтеглива.</text>
+    <path fill="none" stroke="#08B" stroke-dasharray="4,2" stroke-width="2" marker-end="url(#d)" d="M410 75q-60 0-110 45"/>
+    <text x="420" y="230">Приемаме топчето за</text>
+    <text x="420" y="260">материална точка.</text>
+    <path fill="none" stroke="#08B" stroke-dasharray="4,2" stroke-width="2" marker-end="url(#d)" d="M490 280q5 70-30 110"/>
+    <text x="10" y="540">Връщащата сила на топчето</text>
+    <text x="10" y="575">е пропорционална на sin <tspan font-style="italic">θ</tspan>,</text>
+    <text x="10" y="610">не на <tspan font-style="italic">θ</tspan>. Но за малки <tspan font-style="italic">θ</tspan>,</text>
+    <text x="10" y="645">sin <tspan font-style="italic">θ</tspan> ≈ <tspan font-style="italic">θ</tspan> и движението е</text>
+    <text x="10" y="680" font-style="italic">приблизително <tspan font-style="normal">хармонично.</tspan></text>
+  </g>
+</svg>
