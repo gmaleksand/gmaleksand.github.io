@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="595.32" height="841.92" viewBox="0 0 595.32 841.92">
+  <defs>
+    <path id="l" d="M.22 0H4.2a6 6 0 0 0 4-1.25 4.6 4.6 0 0 0 1.4-3.44c0-1.26-.4-2.36-1.19-3.12-.95-.97-2.48-1.47-4.4-1.47H.22v.26c1.1.1 1.22.2 1.23 1.25v6.24C1.44-.5 1.28-.34.22-.27Zm2.67-8.22c0-.44.14-.55.73-.55 1.22 0 2.11.22 2.79.7a4 4 0 0 1 1.67 3.48q-.01 2.5-1.7 3.5a5.3 5.3 0 0 1-2.75.57c-.57 0-.74-.12-.74-.57Zm0 0"/>
+    <path id="n" d="M1.66 0h3.87v-.2C4.45-.2 4.2-.36 4.2-1.03v-8.42l-.12-.03L1.56-8.2v.18q.82-.3 1-.3.43 0 .42.66v6.35c-.03.89-.26 1.1-1.32 1.1Zm0 0"/>
+    <path id="o" d="M6.67-1.92 6.48-2c-.51.83-.67.92-1.32.94H1.8l2.36-2.47C5.4-4.84 5.96-5.91 5.96-7a2.5 2.5 0 0 0-2.6-2.48c-.78 0-1.5.3-2.03.87-.44.47-.66.92-.9 1.92l.3.07C1.3-8 1.78-8.45 2.77-8.45c1.18 0 1.98.8 1.98 1.98 0 1.11-.66 2.4-1.83 3.66L.42-.17V0H5.9Zm0 0"/>
+    <path id="p" d="M2.14-4.62c.83 0 1.16.01 1.49.15a2.1 2.1 0 0 1 1.4 2.06c0 1.2-.78 2.1-1.81 2.1-.4 0-.67-.1-1.2-.44-.41-.25-.64-.34-.88-.34-.33 0-.53.2-.53.48 0 .5.6.81 1.58.81 1.06 0 2.17-.37 2.84-.95a3 3 0 0 0 1.02-2.33c0-.72-.22-1.37-.61-1.81a3 3 0 0 0-1.17-.74c.95-.65 1.3-1.18 1.3-1.93 0-1.16-.88-1.92-2.2-1.92q-1.04 0-1.8.68c-.43.4-.65.75-.94 1.58l.21.06c.57-1.03 1.2-1.48 2.08-1.48.92 0 1.55.6 1.55 1.5 0 .5-.22 1-.56 1.36a4 4 0 0 1-1.78.97Zm0 0"/>
+    <path id="q" d="M6.63-3.23H5.19v-6.25h-.61L.18-3.23v.89H4.1V0h1.08v-2.34h1.43Zm-2.54 0H.73L4.1-8.05Zm0 0"/>
+    <path id="r" d="M2.55-8.19H5.3c.23 0 .28 0 .3-.12l.54-1.25-.12-.1c-.2.29-.33.38-.64.38H2.44L.9-5.97q-.03.04-.02.08 0 .11.17.1.7 0 1.6.29C4.26-4.98 5-4.12 5-2.72c0 1.35-.84 2.4-1.95 2.4-.28 0-.5-.1-.92-.41-.46-.33-.77-.46-1.1-.46Q.45-1.2.45-.67c0 .53.64.87 1.7.87 1.18 0 2.18-.39 2.9-1.1.64-.63.93-1.43.93-2.5 0-1-.28-1.65-.96-2.35-.61-.62-1.41-.94-3.07-1.23Zm0 0"/>
+    <path id="s" d="M9.25-.27c-.53-.04-.81-.18-1.22-.65L5.14-4.47c1.78-.36 2.53-1.06 2.53-2.34q0-.92-.54-1.53c-.54-.58-1.7-.94-3.02-.94H.23v.26c1.05.11 1.2.24 1.2 1.25v6.08c0 1.2-.13 1.35-1.2 1.42V0h3.9v-.27C3.05-.34 2.88-.5 2.86-1.53V-4.3l.78-.03L6.98 0h2.27Zm-6.4-8c0-.39.17-.5.73-.5 1.75 0 2.56.6 2.56 1.93 0 .7-.3 1.28-.8 1.54-.64.38-1.14.46-2.48.49Zm0 0"/>
+    <path id="t" d="M6.27-9.6a6 6 0 0 0-3.46 1.13A5.4 5.4 0 0 0 .48-3.92c0 1.23.38 2.47.97 3.17.55.6 1.3.95 2.17.95 1.74 0 2.94-1.34 2.94-3.28 0-1.81-1-2.92-2.64-2.92-.62 0-.9.1-1.8.63a4.9 4.9 0 0 1 4.16-4ZM3.39-5.35c1.22 0 1.9 1.02 1.9 2.77C5.3-1.05 4.76-.2 3.8-.2c-1.24 0-2-1.32-2-3.49 0-.72.1-1.1.38-1.33.3-.21.74-.34 1.22-.34m0 0"/>
+    <path id="v" d="m8.7-6.33-.12-3.15h-.3q-.16.46-.6.46-.2 0-.54-.12a6 6 0 0 0-2.05-.34 5 5 0 0 0-3.18 1.2 4.8 4.8 0 0 0-1.52 3.7C.4-1.72 2.27.2 5.05.2c1.6 0 3-.65 3.83-1.78l-.26-.26c-1 1-1.94 1.42-3.12 1.42q-1.36 0-2.27-.81c-.78-.7-1.21-1.96-1.21-3.52 0-2.55 1.3-4.17 3.34-4.17.8 0 1.53.3 2.1.84.45.44.65.85.92 1.75Zm0 0"/>
+    <path id="w" d="M9.9-.27c-.62-.04-.76-.18-1.26-1.21L5.16-9.45h-.29L1.96-2.56C1.05-.52.9-.3.2-.26V0h2.78v-.27c-.67 0-.95-.17-.95-.57q.01-.27.11-.55l.66-1.64h3.67l.58 1.34c.17.38.26.75.26.94 0 .36-.23.47-.98.48V0H9.9ZM3.04-3.6l1.61-3.86L6.27-3.6Zm0 0"/>
+    <path id="y" d="M.23-9.02c1.2.07 1.35.2 1.35 1.25v6.24C1.58-.48 1.39-.31.23-.27V0h4.7C6 0 7.01-.3 7.52-.77c.52-.45.8-1.09.8-1.76 0-.61-.25-1.17-.69-1.58a3.6 3.6 0 0 0-1.72-.78c.74-.17 1.03-.31 1.36-.61.36-.31.56-.81.56-1.4 0-1.57-1.26-2.38-3.67-2.38H.23Zm2.79 4.44c1.36 0 2 .1 2.51.3q1.18.48 1.17 1.76-.01 1.16-.86 1.63c-.43.27-1.01.37-1.93.37-.7 0-.9-.12-.9-.57Zm0-.54v-3.22c.01-.32.07-.4.3-.41l.62-.02C5.5-8.8 6.4-8.09 6.4-6.84q0 1.66-2.07 1.7Zm0 0"/>
+    <path id="u" d="M8.9-9.16H1.91v.22c.88.08 1.08.2 1.08.58 0 .17-.08.63-.16.9l-1.71 6.2c-.24.8-.36.9-1.15 1.04V0H7.1l.88-2.27-.22-.12c-.67.92-1.03 1.27-1.62 1.55-.54.23-1.49.37-2.55.37-.78 0-1.11-.14-1.11-.47q0-.24.5-2.04l.45-1.63.66.03.65.02c.4.01.72.1.83.17.13.1.14.19.14.47 0 .26-.01.42-.1.73l.3.08.94-3.26-.25-.05c-.53 1.19-.67 1.28-1.93 1.33l-1.11.03.92-3.27c.1-.33.23-.37 1.05-.37 2.18 0 2.67.18 2.67 1.03l-.02.62.28.03Zm0 0"/>
+    <mask id="f">
+      <g filter="url(#a)">
+        <use xlink:href="#d" filter="url(#c)" transform="matrix(0 .35714 -.35714 0 170 274.45)"/>
+      </g>
+    </mask>
+    <mask id="h">
+      <g filter="url(#a)">
+        <use xlink:href="#d" filter="url(#c)" transform="matrix(.35837 0 0 .35714 181.47 274.45)"/>
+      </g>
+    </mask>
+    <mask id="i">
+      <g filter="url(#a)">
+        <use xlink:href="#d" filter="url(#c)" transform="translate(132.2 321.2)scale(.35714)"/>
+      </g>
+    </mask>
+    <mask id="j">
+      <g filter="url(#a)">
+        <use xlink:href="#d" filter="url(#c)" transform="matrix(0 .35837 -.35714 0 217 321.2)"/>
+      </g>
+    </mask>
+    <mask id="k">
+      <g filter="url(#a)">
+        <use xlink:href="#e" filter="url(#c)" transform="matrix(.35693 0 0 .35916 52.26 262.22)"/>
+      </g>
+    </mask>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAADUlEQVQImWNgYGD4DwABBAEAfbLI3wAAAABJRU5ErkJggg==" id="g" width="98" height="98" x="0" y="0"/>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGIAAABiAQMAAACRa5RNAAAABlBMVEUGBgb7+/u9o399AAABX0lEQVQ4y82TMa7VMBREx1jIHSkpzQ4+OzBLYAewDDqnYxssJR3bSElHCiSsL8uHInlh3EBDgbvRvbqTaM5I//C9ndSnSXUXYbiKuEqTWqbNPF0pzVU9XLG7Hdtkt/4vdnm2m2YFd6j4GeCb2QFvftsB93cnAN49/g6AH7fdM9xnC60Az5fdzxYAvpx235s+PM4GvrbT872kyOcuPV3DROrSC2BIWkbqkjIgKffYJb2sIKm0OCTpNUiqRzxvVySxX3w8DSmwnZvKXYqsgTuNxIOkekhpSNxpxK5zM7BJoV2zM43jUmcaHyVWD7+uHn5dPfy6efh18/DL5uGXzcMvu4dfNmct785a2Z21vDtr+XDWlsNZy81ZWw5nLTVHe2mOdmqOdmqOduqOduqOduyOduqOdhzepDi8SWF4kwLepIA3KTA1aaqAmNrC1KQ6FZc/FLfuk3I7lXVSLvRKf3+/ACZM8HwtO2xCAAAAAElFTkSuQmCC" id="d" width="98" height="98" x="0" y="0"/>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAAEXAQMAAAAX18FHAAAABlBMVEX29vYBAQFtC8StAAAAV0lEQVRIx2P4jwAHGMBU43Dm/KeU0zycQ+c6VYNqNHRGUkIaDR18nOaRGTowVzcwIAGKOVdDHRAc6oQozThgh8sPGs5oZhpZ7Z3RGn20zhoNndEanQocAGuH25lZc6zrAAAAAElFTkSuQmCC" id="e" width="90" height="279" x="0" y="0"/>
+    <filter id="a" width="100%" height="100%" x="0%" y="0%">
+      <feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+    </filter>
+    <filter id="c" width="100%" height="100%" x="0%" y="0%">
+      <feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0.2126 0.7152 0.0722 0 0"/>
+    </filter>
+  </defs>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="m478.36 355.88 11.77-19.17 11.78 19.17Zm0-19.18h23.55"/>
+  <g mask="url(#f)">
+    <use xlink:href="#g" transform="translate(134.97 274.45)scale(.35714)"/>
+  </g>
+  <g mask="url(#h)">
+    <use xlink:href="#g" transform="matrix(.35837 0 0 .35714 181.47 274.45)"/>
+  </g>
+  <g mask="url(#i)">
+    <use xlink:href="#g" transform="translate(132.2 321.2)scale(.35714)"/>
+  </g>
+  <g mask="url(#j)">
+    <use xlink:href="#g" transform="matrix(.35837 0 0 .35714 181.47 321.2)"/>
+  </g>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="m158.21 285.27 16.46-16.37m31.78 62.5 16.44-16.32m-48.24-46.18 17.51 16.33m-35.06 61.41 17.52 16.28m-47.67-46.09 17.53 16.28m61.97-33.81 17.5 16.32m-95.9 1.17 16.43-16.32m30.17 61.91 16.43-16.33m-16.43-77.15h72.36m-72.36 93.52H247"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M354.46 275.33h49.86V261.9h-49.86Zm0 94.09h49.86v-13.43h-49.86ZM319 290v49.86h13.43V290Zm129 0v49.86h-13.43V290Zm49.3-13.1v49.86h-13.43V276.9Zm0 0"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M243.87 268.9h110.58m-110.6 93.45 110.56-.54m49.94-93.49h84.96M404.35 363h84.93m.03-94.68v7.07m0 80.61v7.03m0-33.93v7.05m-49.33-67.83v19.02M326.5 268.9v19.03m113.48 54.62v19.02M326.5 342.55v19.02"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="m360 326 38.5-32 9.4 10-38.5 32Zm0 0"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="m438.92 268.9-35.12 28.06m-39.38 34.48-37.92 29.59m-104.15-115.5v69.2m.4-68.63H84.16m43.89 70.73v59.91m0-.31H84.16"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4" d="M94.1 307.8h14.77"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5" d="m85.92 315.4 31.5.1"/>
+  <path fill="none" stroke="#000" stroke-dasharray="5.99316 1.99772" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M102.28 306.3v-44.4m0 99.63v-44.38"/>
+  <g mask="url(#k)">
+    <use xlink:href="#g" transform="matrix(.32779 0 0 1.02251 52.26 262.22)"/>
+  </g>
+  <use xlink:href="#l" x="132.71" y="281.57"/>
+  <use xlink:href="#n" x="142.78" y="281.57"/>
+  <use xlink:href="#l" x="202.86" y="284.45"/>
+  <use xlink:href="#o" x="212.93" y="284.45"/>
+  <use xlink:href="#l" x="205.26" y="354.09"/>
+  <use xlink:href="#p" x="215.32" y="354.09"/>
+  <use xlink:href="#l" x="138.46" y="369.79"/>
+  <use xlink:href="#q" x="148.53" y="369.79"/>
+  <use xlink:href="#l" x="461.93" y="351.09"/>
+  <use xlink:href="#r" x="472" y="351.09"/>
+  <use xlink:href="#s" x="374.16" y="255.2"/>
+  <use xlink:href="#p" x="383.51" y="255.2"/>
+  <use xlink:href="#s" x="375.36" y="351.09"/>
+  <use xlink:href="#r" x="384.71" y="351.09"/>
+  <use xlink:href="#s" x="361.94" y="307.82"/>
+  <use xlink:href="#q" x="371.29" y="307.82"/>
+  <use xlink:href="#s" x="413.36" y="321.84"/>
+  <use xlink:href="#o" x="422.71" y="321.84"/>
+  <use xlink:href="#s" x="298.75" y="321.84"/>
+  <use xlink:href="#t" x="308.1" y="321.84"/>
+  <use xlink:href="#s" x="461.93" y="307.82"/>
+  <use xlink:href="#n" x="471.28" y="307.82"/>
+  <use xlink:href="#u" x="109.93" y="302.67"/>
+  <use xlink:href="#ct" x="118.44" y="302.67"/>
+  <use xlink:href="#u" x="76.02" y="302.67"/>
+  <use xlink:href="#ct" x="84.53" y="302.67"/>
+  <use xlink:href="#v" x="225.63" y="265.75"/>
+  <use xlink:href="#w" x="72.42" y="265.75"/>
+  <use xlink:href="#y" x="106.94" y="265.15"/>
+</svg>

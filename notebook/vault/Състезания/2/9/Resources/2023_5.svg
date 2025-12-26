@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="612" height="792" viewBox="0 0 612 792">
+  <defs>
+    <path id="h" d="M1.5-1.81q.4 0 .69.3.3.27.3.68t-.3.69a1 1 0 0 1-.69.28q-.4 0-.69-.28a1 1 0 0 1-.28-.69q0-.4.28-.69.28-.3.69-.3m0 0"/>
+    <path id="e" d="M3.1-7.95h4.1v.22q-.67 0-.86.18-.18.16-.23.72 1.35 0 2.05.31.69.33 1.2.94.52.63.52 1.53 0 1.13-.85 1.99-.83.86-2.92.86 0 .42.1.6a.6.6 0 0 0 .29.27q.2.1.7.11V0H3.1v-.22q.73 0 .92-.22.18-.22.18-.76a5 5 0 0 1-2.17-.38Q1.25-1.97.84-2.6a2.65 2.65 0 0 1 .1-2.97q.5-.7 1.25-.97.76-.27 2.01-.28 0-.52-.22-.7-.2-.2-.89-.2Zm3 6.3q.6 0 .96-.16.38-.2.63-.75.25-.57.25-1.55 0-.8-.24-1.34-.22-.55-.58-.74t-1.01-.2ZM4.2-6.38a2 2 0 0 0-1.1.28q-.34.25-.54.78-.19.54-.19 1.36 0 .96.24 1.45.24.5.62.7.4.18.97.18Zm0 0"/>
+    <path id="f" d="M3.7 0v-.22q.53 0 .53-.78v-2.69L2.67-1q0 .77.53.78V0H.4v-.22q.35 0 .5-.19.13-.18.13-.65v-3.38q0-.83-.62-.83v-.21h2.8v.21q-.33.02-.43.2-.1.15-.1.63v2.67l1.55-2.71q0-.45-.12-.61-.13-.18-.4-.18v-.21H6.5v.21q-.32.02-.47.18-.15.14-.16.57v3.49q0 .48.15.66.13.15.48.15V0Zm0 0"/>
+    <path id="g" d="M.42-.22Q.76-.23.9-.39q.15-.15.14-.63V-4.5q0-.4-.12-.56-.13-.17-.49-.2v-.22h4.81v1.43h-.21q-.13-.66-.36-.86-.24-.2-.91-.2H2.67v4.13q0 .42.13.59.15.15.56.17V0H.42Zm0 0"/>
+    <path id="i" d="M1.83-7.95h3.72l-.6 1.51H1.83l-.3.8q2.02.08 3.11 1 .9.76.9 1.92 0 .72-.43 1.42-.4.7-1.17 1.1-.75.37-1.64.37-1 0-1.5-.37Q.43-.45.44-.78a.6.6 0 0 1 .19-.44q.18-.2.43-.2.23 0 .47.1.23.08.8.48.36.25.62.34.18.08.4.08.5 0 .82-.35.35-.35.35-.85 0-1.04-1.04-1.68a5 5 0 0 0-2.6-.64H.4Zm0 0"/>
+    <path id="n" d="M1.22-7.1c.66.02.72.05.72.29 0 .1-.03.23-.11.48l-.05.2-.03.08L.25-.52v.05c0 .27.84.6 1.47.6 1.67 0 3.5-1.93 3.5-3.68 0-.76-.53-1.33-1.28-1.33-.77 0-1.35.46-2.13 1.68.56-2.07.66-2.38 1.14-4.28l-.04-.07c-.57.1-.9.16-1.7.25Zm2.3 2.77c.48 0 .76.36.76.96 0 .71-.55 1.9-1.2 2.59q-.65.65-1.36.66-.52 0-.52-.4c0-.65.33-1.71.8-2.54q.71-1.27 1.52-1.27m0 0"/>
+    <clipPath id="k">
+      <path d="M161.25 288.6h88.1v7.5h-88.1Zm0 0"/>
+    </clipPath>
+    <clipPath id="b">
+      <path d="M0 0h32v32H0z"/>
+    </clipPath>
+    <pattern id="m" width="32" height="32" x="0" y="0" patternTransform="matrix(1 0 0 -1 0 800)" patternUnits="userSpaceOnUse" viewBox="0 0 32 32">
+      <use xlink:href="#a"/>
+    </pattern>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAABmJLR0QA/wD/AP+gvaeTAAAAQklEQVRIie3RIQ4AIBADwS3//3MRJAg0JIh1e+ZEJ0BbAEhyvUfbJOt40ePR3933Nzk6GmiggQYaaKCBBhpo8InBBJ0eAEbM2aiOAAAAAElFTkSuQmCC" id="d" width="32" height="32" x="0" y="0"/>
+    <g id="a" clip-path="url(#b)">
+      <use xlink:href="#d" transform="matrix(1 0 0 -1 0 32)"/>
+    </g>
+  </defs>
+  <use xlink:href="#e" x="72.02" y="297.05"/>
+  <use xlink:href="#f" x="82.33" y="297.05"/>
+  <use xlink:href="#g" x="89.29" y="297.05"/>
+  <use xlink:href="#h" x="94.69" y="297.05"/>
+  <use xlink:href="#j" x="97.69" y="297.05"/>
+  <use xlink:href="#i" x="100.69" y="297.05"/>
+  <use xlink:href="#aa" x="106.7" y="297.05"/>
+  <use xlink:href="#aa" x="109.7" y="297.05"/>
+  <use xlink:href="#aa" x="112.7" y="297.05"/>
+  <use xlink:href="#aa" x="115.7" y="297.05"/>
+  <use xlink:href="#aa" x="118.7" y="297.05"/>
+  <use xlink:href="#aa" x="121.7" y="297.05"/>
+  <use xlink:href="#aa" x="124.7" y="297.05"/>
+  <use xlink:href="#aa" x="127.7" y="297.05"/>
+  <use xlink:href="#aa" x="130.7" y="297.05"/>
+  <use xlink:href="#aa" x="133.7" y="297.05"/>
+  <use xlink:href="#aa" x="136.7" y="297.05"/>
+  <use xlink:href="#aa" x="139.7" y="297.05"/>
+  <use xlink:href="#aa" x="142.7" y="297.05"/>
+  <use xlink:href="#aa" x="145.7" y="297.05"/>
+  <use xlink:href="#aa" x="148.7" y="297.05"/>
+  <use xlink:href="#aa" x="151.7" y="297.05"/>
+  <use xlink:href="#aa" x="154.7" y="297.05"/>
+  <use xlink:href="#aa" x="157.7" y="297.05"/>
+  <use xlink:href="#aa" x="250.13" y="297.05"/>
+  <g clip-path="url(#k)">
+    <path fill="url(#m)" fill-rule="evenodd" d="M161.25 296.1h88.1v-7.5h-88.1Zm0 0"/>
+  </g>
+  <path fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".75" d="M161.25 296.1h88.1v-7.5h-88.1Zm0 0"/>
+  <path fill="#fff" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.25" d="M183.7 288.65h42.6V246h-42.6Zm0 0"/>
+  <path fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".75" d="M229.88 249.9a3.57 3.57 0 1 0-.01 7.15 3.57 3.57 0 0 0 0-7.15m.01 27.75a3.58 3.58 0 1 0 0 7.15 3.58 3.58 0 0 0 0-7.15m0 0"/>
+  <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".75" d="M183.7 246a3.57 3.57 0 0 0-3.58 3.55v14.22c0 1.96-1.6 3.55-3.57 3.55 1.97 0 3.57 1.6 3.57 3.56v14.22a3.57 3.57 0 0 0 3.58 3.55"/>
+  <use xlink:href="#n" x="169.58" y="270.65"/>
+  <use xlink:href="#bu" x="175.13" y="270.65"/>
+</svg>

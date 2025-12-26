@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="612" height="792" viewBox="0 0 612 792">
+  <defs>
+    <path id="a" d="M8.42-7.95H5.94v.23c.67.05.89.16.89.5 0 .19-.1.52-.24.88l-1.78 4.4L3-6c-.4-.9-.5-1.16-.5-1.33q-.01-.33.56-.37l.35-.02v-.23H.19v.23c.6.02.76.19 1.28 1.25L4.44.13h.18l2.7-6.74c.38-.95.52-1.08 1.1-1.1Zm0 0"/>
+    <path id="b" d="M6.84-.19c-.53-.04-.78-.25-1-.86L4.72-3.98c.92-.2 1.33-.38 1.76-.77q.6-.53.61-1.34c0-1.13-.89-1.74-2.51-1.74H1.59v.19c.5.08.57.1.7.17.08.06.16.2.16.34s-.06.43-.15.75L.8-1.08c-.2.7-.3.78-.97.9V0h2.94v-.19c-.75-.1-.81-.14-.81-.56 0-.12.01-.25.14-.69l.67-2.5.8.05L5.05 0h1.8ZM3.72-7.12c.06-.25.22-.35.6-.35q1.5 0 1.5 1.36-.01 1.77-2.27 1.78c-.22 0-.32-.01-.61-.06Zm0 0"/>
+    <path id="c" d="M5-1.31c-.44.75-.52.83-.73.83-.25 0-.5-.41-.97-1.55L2.84-3.1c1.79-1.57 2.14-1.82 2.72-1.85v-.18h-2.2v.18c.52.02.66.07.66.22 0 .24-.61.81-1.72 1.67l-.53.4 1.45-5.47-.06-.07c-.74.17-1.2.24-1.88.33v.19c.6-.02.81.08.81.3-.01.2-.1.53-.26 1.07l-.11.4-.02.12L.17 0h.9l.59-2.16.5-.39c.2.53.51 1.28.73 1.7.38.76.6.98.94.98.48 0 .8-.3 1.34-1.3Zm0 0"/>
+  </defs>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".6" d="M134.1 36.3h32.4v18.6h-32.4ZM32.7 36.3h34.2v18.6H32.7ZM.9 9.3h66v27H.9Zm0 0" transform="matrix(.99653 0 0 -.99101 212.68 571.42)"/>
+  <path fill="#fff" fill-rule="evenodd" d="M244.37 570.82h4.18v-17.24h-4.18Zm0 0"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".6" d="M36.3 18.3V1.52M32.1 13.5V5.11" transform="matrix(.99653 0 0 -.99101 212.68 571.42)"/>
+  <path fill="#fff" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".6" d="M5.7 32.1h24.6v8.4H5.7ZM36.3 32.1h25.2v8.4H36.3ZM39.9 54.6a8.7 8.7 0 1 0 17.4 0 8.7 8.7 0 0 0-17.4 0Zm0 0" transform="matrix(.99653 0 0 -.99101 212.68 571.42)"/>
+  <use xlink:href="#a" x="256.75" y="521.55"/>
+  <use xlink:href="#b" x="257.08" y="550.51"/>
+  <use xlink:href="#c" x="224.09" y="550.51"/>
+  <use xlink:href="#b" x="229.47" y="550.51"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".6" d="M166.5 36.3h33.6v18.6h-33.6Zm0 0" transform="matrix(.99653 0 0 -.99101 212.68 571.42)"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".6" d="M134.1 9.3h66v27h-66Zm0 0" transform="matrix(.99653 0 0 -.99101 212.68 571.42)"/>
+  <path fill="#fff" fill-rule="evenodd" d="M359.17 525.63h4.19V508.4h-4.19Zm0 0"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".6" d="M151.5 63.9V47.12M147.3 59.1v-8.39" transform="matrix(.99653 0 0 -.99101 212.68 571.42)"/>
+  <path fill="#fff" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".6" d="M138.9 32.1h24.6v8.4h-24.6ZM169.5 32.1h25.2v8.4h-25.2ZM173.1 54.6a8.7 8.7 0 1 0 17.4 0 8.7 8.7 0 0 0-17.4 0Zm0 0" transform="matrix(.99653 0 0 -.99101 212.68 571.42)"/>
+  <use xlink:href="#a" x="389.91" y="521.55"/>
+  <use xlink:href="#b" x="390.21" y="550.51"/>
+  <use xlink:href="#c" x="357.23" y="550.51"/>
+  <use xlink:href="#b" x="362.61" y="550.51"/>
+</svg>

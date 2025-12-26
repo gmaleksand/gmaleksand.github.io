@@ -22,9 +22,11 @@
 <line stroke="#000000" stroke-width="2" x1="0" y1="0" x2="10" y2="0" />
 </pattern>
 </defs>
+<g transform="translate(20 0)">
 <rect width="501" height="401" fill="url(#grid-thick)"/>
 <line stroke="#000000" stroke-width="2" x1="0" y1="400" x2="500" y2="400"/>
 <line stroke="#000000" stroke-width="2" x1="0" y1="0" x2="0" y2="400"/>
 <rect x="0" y="400" width="501" height="8" fill="url(#tick-thick)"/>
 <rect x="-10" y="0" width="10" height="401" fill="url(#vtick-thick)"/>
+</g>
 </svg>

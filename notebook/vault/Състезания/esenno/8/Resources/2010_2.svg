@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="574" height="404" viewBox="0 0 574 404">
+  <path stroke="#000" stroke-width="4" d="M130 303h303"/>
+  <path stroke="#ddd" stroke-width="4" d="m130 300 95.76-263.06"/>
+  <path stroke="#000" stroke-width="1.5" d="m127 300 95.76-263.06"/>
+  <text x="170" y="45" font-family="Times New Roman, serif" font-size="36" font-style="italic">M<tspan baseline-shift="sub" font-size="20">1</tspan></text>
+  <text x="405" y="345" font-family="Times New Roman, serif" font-size="36" font-style="italic">M<tspan baseline-shift="sub" font-size="20">2</tspan></text>
+  <path fill="none" stroke="#444" stroke-width="2" d="M194 300a100 100 0 0 0-44-59.6"/>
+  <text x="183" y="260" font-family="Times New Roman, serif" font-size="36">70°</text>
+  <path stroke="red" stroke-width="1.5" d="m403 67-198.5 35"/>
+  <path fill="none" stroke="red" stroke-width="2" d="m344 86-20-5 18-10"/>
+  <path stroke="#08f" stroke-dasharray="10,8" stroke-width="1.5" d="M204.5 103 370 198"/>
+  <path fill="none" stroke="#444" stroke-width="2" d="M265 139a100 100 0 0 0 13-49"/>
+  <text x="285" y="135" font-family="Times New Roman, serif" font-size="36">40°</text>
+  <text x="303" y="383" font-family="Times New Roman, serif" font-size="36" font-style="italic">a</text>
+</svg>
