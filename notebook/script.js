@@ -162,14 +162,27 @@ async function loadNote(noteName) {
         if (!res.ok) throw new Error('Note not found');
         const text = await res.text();
         
-        // Parse Markdown
-        const markedOptions = {
-        breaks: true,
-        gfm: true,
-        // Disable underscore emphasis
-        em: '*', // Only use asterisks for emphasis, not underscores
+        const mathTokenizer = {
+          name: 'math',
+          level: 'inline',
+          start(src) { return src.indexOf('$'); },
+          tokenizer(src) {
+            const rule = /^\$([^$]+)\$/; // Matches $formula$
+            const match = rule.exec(src);
+            if (match) {
+              return {
+                type: 'text', // Treat it as plain text so it won't be parsed for italics
+                raw: match[0],
+                text: match[0]
+              };
+            }
+          }
         };
-        let html = marked.parse(text, markedOptions);
+
+        marked.use({ extensions: [mathTokenizer] });
+
+
+        let html = marked.parse(text);
         
         // Process images before sanitization
         html = processImages(html, fullPath);
