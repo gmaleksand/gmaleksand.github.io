@@ -304,8 +304,8 @@ dF(x) = f(x)dx = (2ax + b) dx. Когато знаем производната 
 
 *Решение.*
 
-$$\int xe^{ax} dx = \int \frac{x}{a}d(e^{ax}) = \frac{x}{a}e^{ax} - \int e^{ax} d\left(\frac{x}{a}\right) =\\
-= \frac{x}{a}e^{ax} - \frac{1}{a^2}e^{ax} = \frac{e^{ax}}{a^2}(ax-1).$$
+$$\int xe^{ax} dx = \int \frac{x}{a}d(e^{ax}) = \frac{x}{a}e^{ax} - \int e^{ax} d\left(\frac{x}{a}\right) =$$
+$$= \frac{x}{a}e^{ax} - \frac{1}{a^2}e^{ax} = \frac{e^{ax}}{a^2}(ax-1).$$
 
 
 Вектори

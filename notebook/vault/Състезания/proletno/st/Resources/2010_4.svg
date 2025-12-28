@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="841.92" height="595.2" viewBox="0 0 841.92 595.2">
-<defs>
-<g id="source-5">
-<text x="415.887151" y="556.484207" font-size="12px" font-family="Times New Roman">4</text>
 <g fill="none" stroke-width="0.898611" stroke-linecap="square" stroke="rgb(0%, 100%, 0%)" transform="matrix(0.261853, 0, 0, -0.217503, 0.525101, 594.401074)">
 <path d="M 578.577795 589.193248 L 578.577795 2349.355253 "/>
 <path d="M 607.324261 589.193248 L 607.324261 2349.355253 "/>
@@ -86,21 +83,21 @@
 <path d="M 2274.783335 589.193248 L 2274.783335 2349.355253 "/>
 <path d="M 2562.426999 589.193248 L 2562.426999 2349.355253 "/>
 </g>
-<g transform="matrix(1.25,0,0,1,0,0)">
-<text x="112" y="487.85919" font-size="13px" font-family="Arial">0</text>
-<text x="165" y="487.85919" font-size="13px" font-family="Arial">500</text>
-<text x="222" y="487.85919" font-size="13px" font-family="Arial">1000</text>
-<text x="281" y="487.85919" font-size="13px" font-family="Arial">1500</text>
-<text x="342" y="487.85919" font-size="13px" font-family="Arial">2000</text>
-<text x="402" y="487.85919" font-size="13px" font-family="Arial">2500</text>
-<text x="463" y="487.85919" font-size="13px" font-family="Arial">3000</text>
-<text x="523" y="487.85919" font-size="13px" font-family="Arial">3500</text>
-<text x="583" y="487.85919" font-size="13px" font-family="Arial">4000</text>
-<text x="83" y="431.543238" font-size="13px" font-family="Arial">-1.0</text>
-<text x="83" y="354.897795" font-size="13px" font-family="Arial">-0.5</text>
-<text x="87" y="278.445193" font-size="13px" font-family="Arial">0.0</text>
-<text x="87" y="201.799749" font-size="13px" font-family="Arial">0.5</text>
-<text x="87" y="125.15141" font-size="13px" font-family="Arial">1.0</text>
+<g transform="matrix(1.25,0,0,1,0,0)" font-size="13px" font-family="Arial">
+<text x="112" y="487.85919">0</text>
+<text x="165" y="487.85919">500</text>
+<text x="222" y="487.85919">1000</text>
+<text x="281" y="487.85919">1500</text>
+<text x="342" y="487.85919">2000</text>
+<text x="402" y="487.85919">2500</text>
+<text x="463" y="487.85919">3000</text>
+<text x="523" y="487.85919">3500</text>
+<text x="583" y="487.85919">4000</text>
+<text x="83" y="431.543238">-1.0</text>
+<text x="83" y="354.897795">-0.5</text>
+<text x="87" y="278.445193">0.0</text>
+<text x="87" y="201.799749">0.5</text>
+<text x="87" y="125.15141">1.0</text>
 </g>
 <g fill="none" stroke-width="6.3" stroke="rgb(0%, 0%, 0%)" transform="matrix(0.261853, 0, 0, -0.217503, 0.525101, 594.401074)">
 <path d="M 549.368881 559.057117 L 549.368881 589.642237 "/>
@@ -301,7 +298,5 @@
 <g transform="matrix(0,-1.04,1.25,0,0,0)">
 <text x="-290.5" y="78" font-size="16px" font-family="Arial">Voltage (V)</text>
 </g>
-</g>
-</defs>
-<use xlink:href="#source-5"/>
+
 </svg>
