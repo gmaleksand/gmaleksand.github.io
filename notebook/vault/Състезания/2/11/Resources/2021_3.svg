@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250" height="250" viewBox="0 0 250 250">
+  <defs>
+    <path id="e" d="m2.05-1.66 2.33-2.68q-.03-.45-.18-.61-.16-.2-.54-.2v-.22h2.5v.23q-.4 0-.54.08a1 1 0 0 0-.21.2q-.07.1-.07.75v2.84q0 .63.07.75.05.12.2.2.14.1.55.1V0h-2.6v-.22q.48 0 .64-.17t.17-.88v-2.51L2.06-1.1q0 .5.14.68.15.2.56.2V0H.27v-.22q.52 0 .67-.19.15-.18.14-.86V-4.1q0-.62-.06-.73a.5.5 0 0 0-.2-.2q-.14-.1-.55-.1v-.24h2.59v.24q-.4 0-.53.08a1 1 0 0 0-.2.2q-.08.1-.08.75Zm0 0"/>
+    <path id="h" d="M1.5-1.14q.28 0 .47.2t.19.46-.2.46a.66.66 0 0 1-.92 0 .7.7 0 0 1-.2-.46.64.64 0 0 1 .66-.66m0 0"/>
+    <path id="f" d="m4.63-5.37.21 1.46H4.6q-.22-.7-.45-.89-.22-.18-.95-.18H2.05v3.71q0 .63.06.75.08.12.2.2.15.1.55.1V0H.19v-.22Q.74-.23.9-.39t.17-.88V-4.1q0-.56-.06-.72a.4.4 0 0 0-.22-.23 2 2 0 0 0-.61-.08v-.24Zm0 0"/>
+    <path id="d" d="M6.45 0H3.03v-.22q.68-.01.9-.17.24-.17.24-.72-1.97 0-2.84-.83a2.7 2.7 0 0 1-.88-2.08q0-.93.52-1.59.51-.66 1.26-.92.77-.25 1.94-.25 0-.5-.14-.66a1 1 0 0 0-.31-.22 3 3 0 0 0-.69-.07v-.22h3.42v.22q-.69.03-.9.21t-.25.74q1.26 0 1.98.28.73.27 1.25.9.52.65.52 1.58-.01 1.22-.86 2.07-.84.84-2.9.84.03.54.26.7.21.18.9.2ZM5.3-1.53q.87 0 1.37-.22.52-.24.85-.81.34-.6.34-1.46 0-.8-.34-1.37a1.7 1.7 0 0 0-.85-.77 4 4 0 0 0-1.37-.2Zm-1.13 0v-4.83q-.9 0-1.4.24-.5.22-.82.75-.32.52-.32 1.35 0 .93.39 1.54.38.6.9.78.53.17 1.25.17m0 0"/>
+    <path id="i" d="M.6-6.44q.36-.8.87-1.23.5-.45 1.3-.44.94 0 1.45.63.39.45.39.98 0 .88-1.1 1.8.75.28 1.12.8.37.55.37 1.27 0 1.05-.66 1.79-.84.98-2.46.98-.83 0-1.11-.2-.3-.21-.29-.42a.4.4 0 0 1 .15-.3q.14-.14.32-.14.15 0 .3.05.1.03.45.21.36.2.49.22.21.07.47.07.59 0 1.03-.46t.45-1.1q0-.45-.2-.9-.15-.33-.35-.5-.25-.23-.68-.42-.45-.19-.9-.19h-.18v-.19q.45-.05.92-.32.47-.29.67-.66.22-.4.22-.86 0-.6-.37-.97a1.3 1.3 0 0 0-.94-.37q-.93 0-1.53.97Zm0 0"/>
+    <path id="o" d="M4.97-1.31c-.44.75-.5.83-.72.83-.25 0-.5-.41-.97-1.57l-.45-1.04c1.78-1.58 2.12-1.82 2.7-1.85v-.2H3.34v.2c.52 0 .66.05.66.2 0 .26-.6.83-1.72 1.7l-.51.38L3.2-8.14l-.06-.06c-.73.17-1.19.25-1.87.32v.2c.59 0 .8.07.82.3-.03.2-.1.52-.26 1.08q-.09.25-.11.4l-.03.1L.17 0h.9l.57-2.16.5-.39c.2.53.52 1.28.73 1.7.38.76.6.98.94.98.49 0 .78-.3 1.33-1.3Zm0 0"/>
+    <path id="l" d="m8.27-1.4-.16.18-.33.4c-.25.27-.37.37-.55.37q-.14 0-.14-.2c0-.05.05-.26.13-.54l.81-3.01c.02-.07.03-.25.03-.33 0-.44-.3-.77-.69-.77-.25 0-.48.1-.78.27-.57.39-1.07.97-1.9 2.28.31-.94.48-1.6.48-1.83 0-.42-.28-.72-.69-.72-.73 0-1.56.8-2.67 2.53l.7-2.5-.04-.03c-.64.14-.9.2-1.92.38v.19c.56.01.56.01.67.07q.09.06.1.2c0 .15-.29 1.24-.71 2.74C.34-.8.3-.6.14 0h.9c.59-1.9.76-2.36 1.16-2.97.7-1.05 1.4-1.7 1.82-1.7q.22 0 .23.3c0 .15-.36 1.57-.84 3.26L3.1 0H4c.47-1.87.72-2.48 1.33-3.33.58-.81 1.2-1.34 1.54-1.34q.22.01.23.25 0 .08-.08.42l-.69 2.77c-.12.46-.15.67-.15.8q0 .53.47.54c.56 0 1.09-.4 1.73-1.28l.06-.1Zm0 0"/>
+    <path id="m" d="m4.83-1.33-.27.31c-.28.38-.42.49-.56.49q-.25 0-.36-.49c-.05-.14-.05-.15-.05-.2a14 14 0 0 1-.43-1.95c.54-.94.95-1.45 1.17-1.45q.13 0 .3.09c.14.1.21.1.32.1q.39-.02.4-.41c0-.27-.2-.46-.47-.46-.54 0-.97.44-1.82 1.72l-.14-.65c-.15-.82-.3-1.07-.62-1.07-.27 0-.66.1-1.4.36l-.13.05.04.17c.47-.12.56-.12.67-.12.3 0 .38.1.55.82l.35 1.47-.99 1.4c-.25.37-.48.59-.6.59a1 1 0 0 1-.32-.11 1 1 0 0 0-.4-.13.4.4 0 0 0-.4.43c0 .3.24.5.61.5C.64.13.8.02 1.4-.7c.33-.4.6-.75 1.08-1.4l.36 1.43c.15.62.31.8.7.8.45 0 .77-.29 1.45-1.36Zm0 0"/>
+    <path id="j" d="M10.47-7.84h-2L4.44-1.92l-.66-5.92H1.61v.2q.9.04.89.44 0 .16-.12.5-.04.05-.11.36l-.04.12L.95-1.75C.6-.5.41-.27-.22-.19V0h2.38v-.19c-.61-.04-.85-.2-.85-.53 0-.14.05-.42.11-.64l1.4-5.19L3.57 0h.2L8.3-6.73 6.75-1.1c-.2.64-.44.8-1.22.9V0h3.28v-.19C7.98-.27 7.9-.34 7.9-.7c0-.2.02-.36.13-.74l1.46-5.31c.22-.72.29-.78.99-.9Zm0 0"/>
+    <path id="p" d="M.95 0h2.22v-.12c-.62 0-.76-.08-.76-.47v-4.83l-.07-.02L.9-4.7v.1q.48-.17.58-.17.25-.01.25.38v3.64c-.02.52-.16.63-.77.63Zm0 0"/>
+    <path id="q" d="m3.83-1.1-.11-.04c-.3.47-.4.51-.77.53H1.03l1.35-1.42C3.09-2.78 3.4-3.4 3.4-4.02c0-.8-.64-1.42-1.49-1.42-.44 0-.86.17-1.15.5-.27.27-.38.53-.52 1.1l.17.04c.31-.8.6-1.04 1.16-1.04.69 0 1.14.45 1.14 1.14 0 .62-.38 1.37-1.05 2.08L.23-.1V0h3.15Zm0 0"/>
+    <path id="n" d="M2.75-1.48c-.78 1-.9 1.09-1.16 1.09q-.16.01-.17-.22 0-.15.1-.47l.03-.1 1.8-6.98-.05-.06c-.72.17-1.17.24-1.88.33v.19c.58 0 .81.08.81.28l-.03.22L.55-.86q-.06.2-.05.31 0 .69.58.68c.62 0 1.05-.33 1.83-1.5Zm0 0"/>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAADHCAAAAABZpd4vAAAEQUlEQVRYw+2YvdHjOAyGXQszZt8MI2yIHCFawJXA6OYQsQTNsA1UoALYgiNlzlSBLqD+RdvBfre3O2PF75gWHj2vYN+mt9ft/4l8fX19vYmQGr2P/PUtn/JHRf7+VQf9810H3T+RdmTcXe0I+PkCBLBmREREGL1zXiNeI6wkTOCcDyEE1WtkIkLwPswX+fN3uScG1pxDCCF45yDd95EhC1DMZmY5eOe89PubHpMSqfVmZtZFdNSNp7kgq5VSestKIHm4jk7UzErJApRKu18kWhcJGUMAyY/mg4kOqd4GE3gQG6+MHh3VQbCICIGH2I9XjEOiEIClzp/Ao/bDFeO9Y/C4xAAQmo15T+wB0Tvng6o0S3VM5CvFoLERKUqIC0YP54OGToA1W14oxry/o9EiUuzMzCx77zzb4aYLE0YrfaVI4NNwHh1rtlJKn5WBu5YBFaNFhO0ZOUWipEjIHEI4Tn53kDjEmVGdfGmodlfcMDKCp11sm0uJGGAFhOAptYQtSn6NEUIb41QUF44auf1uLHGzsREZ+4g7G/l8UEkEkmy1EQ8YV8yLjXCy0SLyYmMSdJwvNkqqNnaRQOzxDGOfpYV5tTEJoWAIZzwtGxE8pXujMU1ws5HRe+6GRqmaQAgbRb81wH50Y47ogVaKiNjCOFoED7SUamxjHPQlxqko+ZUjQz6XancqVTp83UeWRcdaqpuOt2mapnwu1fQ4jQ62UuW3paqvSpVrqTZkrAcdShW1b2AsesB4cva2lzEcZbw3bOzTTkZG5CbGWcb68ovSLtVpMvKVYxvjkGXGHEKoEG4nWzF2eW5d5+V0R0ogqWIM3jnU4TCXLCi1dC0rO5Byni7GrpTSmyVB0j5eGYmZldIr4dXWGmG1rIKE+MpGoO61jWMnJ4w/Y+N0tpFe2jhjfGLjlMk7/xzjveNXGB/17TfbeMXYK+EOo990u82fvsNIDuIFI8X8BmOcMSJGG19hZEQ4DP5o44KR9oM/MIocNoyXRWitoEQhBNptOLFvLLODym7DIYDILYxDx94j11VVoH+CsQi8snEqOmMOIUTRc6S+/VJYX47HrztaRIzdjHG/5NzWFWregawT5zCdHm8B1r6U3iwrAye5TFerjaUTpCeqiZp1iRGxSbHuUgCoFEII6NvtPd0pbBgJz+vsstd1vG5B53V2N7pHIvC4h83awDjkBTaBcyDTk3djR1Bb9QnGIcOqY7wus7VVNSw6wknYtVVzOLbqbXkKUOoOZDm6Y6vepmmKgLFitCRI9Yk9YuSK0SJhtMenVD+l+inVT6l+SvU/LlVRM+sEAa981oMQodoGvv0DdeoRdhjh/E/CbS/jjPEo4350d0XwxPUiRKA+tTAyM7jlwpawpDb/cA8hBO2oEYmHiLYiAIBu/mfQNf+KoGzQGt0n8h0R/I0i8D7yI9uPn/+Ub4oAvItMT7T/JZF/AXMJFkXTNDB/AAAAAElFTkSuQmCC" id="a" width="34" height="199" x="0" y="0"/>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEUAAABmCAAAAAC43gNtAAABqklEQVRYw2P4Tw3AQC9TfGdushw1ZdQU+priNIhMGY2j0fQyGkejpozmgNE4Gk0vw90US4pMeb9/en29o6WV1cxNVlaWgfX1y/d/J9GU5QkKPIZBaWmTZ80CuWXWrLa0NFdDNo2s40Sb8r1C0LFy7VkoAJkCYy8r1pCbT5wp58UTd51FAGRTgGCth8p7Iky5ropsBtAUIEARWKb7nrApVllnUUFbG5qAVSFhU2SszhIAIvGETTHgTzyAz4xd3hz1RJjCKykasxmXGWv9+MVYiTJF3VhDQDqgbRaaAcdnNXiKCmsYKRBpioV7WKiroToDg6qRkVFaWloCkJJjYFU3dg0JdDYhwZTUksa+mUu62zp74uPjU7o7WvoWTOuuzU8gx5TVm7fv3rd//95d2zasHDVl1JRRU0ZNGTVl1JShZ0oqQVP45xM25b6SIn5TJNW+E9Guuy+jaIPbFBMZLWLadUDQIydlFI3NlAB9IZ31xLd3z9frMygaBYVGNvf09ff3dddGhAToyDDY998ntQV/fnt9fb2zDRj4AJn7rw/46PmoKaOmjJoy4kwBAJAhOcVioujNAAAAAElFTkSuQmCC" id="c" width="69" height="102" x="0" y="0"/>
+    <pattern id="b" width="123" height="123" x="0" y="0" patternTransform="matrix(.99928 0 0 -.99928 10.82 761.04)" patternUnits="userSpaceOnUse" viewBox="0 0 23 23">
+      <image xlink:href="data:image/webp;base64,UklGRmYCAABXRUJQVlA4IFoCAAAwFgCdASqAAIAAPyWMu1euKaWjopZtScAkiWlnwP/Z7/+//v8pbfunP+u78hMBtcwwXb0ANf+n/gGTP9uuvMh//gQfNT60rI6db88yg0TIAxqb+Q0cjfhOyPdRkHARUXQakmHCrYbKeQVjeg+U40Ee2oPqMqjvtVUU6Vn/60p0CBAIbXjGZ2MpNnwCk3pSXvq2XPsIjReHd7928d8aHSh6UKG+goXXvG46puSEgsfcWsoozn0kE9SQAAAA/tx8n9e1scqkkUFU252tWHBlYjXLp8Ac4t+Dkn/HANsrY7LPqfqRPbGMXVLq6fM5Byl9VuSNpAei9khJXyKeWVxqb7YUdHDEM4rqua9HSFnqYqEF/tcI0ObsAFVOiXufTJVB25r/nkxfupwNsSmjXGJHpCBazKNm+zeXRgGzjQaXyKMUEL5PhKQpE9601Qcwrv6qeF3Qejww7gdTMUJq/bc9PdHs9hMs4VaZLn3nw/+Z23HAMEg58brj57T9lKtWP7J7Ov4+baB6y7XTP57aerDaAwwFV0msmNK5AM5O1wS5anNIAPFw92AD8YpogNT8WgwhHVnIb1590cP1bL6l2C4RO2jx8r4pEtzPn8pH0Bycf+ULIoZ2gu8/LdqWXq+4/LvyKurlMi7tW7gKbr/oc5Qbmt8U2l8UlDtzjFHRbGcc+jWUU7zZCzQuJiyLZuTTGXGedvMqzB2cVbx4+Mj6fNn3/G3AqD3AHu9ziothY7Llqi52+qRo0YKL5+NvOKRjwWN2cQc9pZIbiDpRF/cTqShsIN8Glf3Jw4LhkqYAAA==" width="128" height="128" transform="matrix(.96094 0 0 -.96094 0 23)"/>
+    </pattern>
+  </defs>
+  <use xlink:href="#a" transform="matrix(.56588 0 0 .56211 205.16 51.23)"/>
+  <use xlink:href="#a" transform="matrix(.56588 0 0 .56211 78.88 49.87)"/>
+  <path fill="url(#b)" fill-rule="evenodd" d="M79.56 54.1h138.88v-7.62H79.56Zm0 0"/>
+  <path fill="#7f7f7f" fill-rule="evenodd" stroke="#404040" stroke-linejoin="round" stroke-miterlimit="10" d="M211.27 50.55h3.55v-4.75h-3.55Zm-126.28 0h3.55v-4.75h-3.55Zm0 0"/>
+  <use xlink:href="#c" transform="matrix(.53016 0 0 .45209 108.76 165.26)"/>
+  <path fill="#bfbfbf" fill-rule="evenodd" stroke="#404040" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M87.03 164.57h127.11v-4.75h-127.1Zm0 0"/>
+  <path fill="#7f7f7f" fill-rule="evenodd" stroke="#404040" stroke-linejoin="round" stroke-miterlimit="10" d="M125.73 163.22h3.6v-4.75h-3.6Zm0 0"/>
+  <use xlink:href="#d" x="168.79" y="216.13"/>
+  <use xlink:href="#e" x="178.27" y="216.13"/>
+  <use xlink:href="#f" x="184.74" y="216.13"/>
+  <use xlink:href="#h" x="189.66" y="216.13"/>
+  <use xlink:href="#M" x="192.66" y="216.13"/>
+  <use xlink:href="#i" x="195.66" y="216.13"/>
+  <use xlink:href="#z" x="201.7" y="216.13"/>
+  <use xlink:href="#j" x="194.74" y="180.25"/>
+  <use xlink:href="#aM" x="204.7" y="180.25"/>
+  <use xlink:href="#l" x="139.75" y="199.93"/>
+  <use xlink:href="#aM" x="148.39" y="199.93"/>
+  <use xlink:href="#m" x="103.51" y="183.61"/>
+  <use xlink:href="#aM" x="108.79" y="183.61"/>
+  <use xlink:href="#n" x="143.83" y="148.9"/>
+  <use xlink:href="#bw" x="147.19" y="148.9"/>
+  <use xlink:href="#o" x="229.78" y="115.66"/>
+  <use xlink:href="#p" x="235.06" y="116.62"/>
+  <use xlink:href="#z" x="239.14" y="115.66"/>
+  <use xlink:href="#o" x="64.15" y="115.06"/>
+  <use xlink:href="#q" x="69.43" y="116.02"/>
+  <use xlink:href="#z" x="73.51" y="115.06"/>
+  <path fill="#404040" d="M89.13 152.66h124.09v.75h-124.1Zm5.81 4.2-6.55-3.82 6.55-3.83c.18-.1.41-.04.52.14.1.18.04.41-.14.5l-6 3.5v-.64l6 3.5c.18.11.24.34.14.5a.4.4 0 0 1-.52.15m112.47-7.65 6.55 3.83-6.55 3.82a.4.4 0 0 1-.52-.14.37.37 0 0 1 .14-.5l6-3.5v.64l-6-3.5a.37.37 0 0 1-.14-.5.4.4 0 0 1 .52-.15m0 0"/>
+  <path fill="none" stroke="#404040" stroke-dasharray="3 2.25" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".75" d="M86.35 164.57v24.44"/>
+  <path fill="#404040" d="M87.09 173.02h38.67v.75H87.1Zm5.82 4.2-6.56-3.82 6.56-3.83c.17-.1.4-.04.51.14s.04.41-.14.5l-6 3.5v-.64l6 3.5c.18.11.24.34.14.52-.11.17-.34.24-.51.13m27.04-7.65 6.55 3.83-6.55 3.82a.4.4 0 0 1-.52-.13.4.4 0 0 1 .14-.52l6-3.5v.65l-6-3.5a.37.37 0 0 1-.14-.5c.1-.19.34-.25.52-.15m0 0"/>
+</svg>

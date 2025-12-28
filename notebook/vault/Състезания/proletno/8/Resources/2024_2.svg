@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="595.32" height="841.92" viewBox="0 0 595.32 841.92">
+  <defs>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAnCAAAAABYw1VkAAAAAmJLR0QA/4ePzL8AAAAVSURBVDiNY2AYBaNgFIyCUTAKSAYABj8AAeWzMToAAAAASUVORK5CYII=" id="b" width="40" height="39" x="0" y="0"/>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAnCAIAAADyyp3vAAAABmJLR0QA/wD/AP+gvaeTAAAAG0lEQVRYhe3BMQEAAADCoPVPbQlPoAAAAADgZhJvAAGgdcr1AAAAAElFTkSuQmCC" id="i" width="40" height="39" x="0" y="0"/>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAoCAAAAACki5f2AAAAAmJLR0QA/4ePzL8AAAAXSURBVDiNY2AYBaNgFIyCUTAKRgG1AAAHWAAB+XFK2QAAAABJRU5ErkJggg==" id="d" width="46" height="40" x="0" y="0"/>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAoCAIAAAAOgl99AAAABmJLR0QA/wD/AP+gvaeTAAAAHElEQVRYhe3BMQEAAADCoPVPbQ0PoAAAAAAAeDIVuAAB4TqGGwAAAABJRU5ErkJggg==" id="m" width="46" height="40" x="0" y="0"/>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAyCAAAAAAGxrYLAAAAAmJLR0QA/4ePzL8AAAAZSURBVEiJ7cGBAAAAAMOg+VOf4AZVAQDwDQkuAAGJD0eGAAAAAElFTkSuQmCC" id="e" width="46" height="50" x="0" y="0"/>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAyCAIAAACsz36AAAAABmJLR0QA/wD/AP+gvaeTAAAAHUlEQVRYhe3BAQEAAACCIP+vbkhAAQAAAAAAwJsBGyYAAXhKLNMAAAAASUVORK5CYII=" id="s" width="46" height="50" x="0" y="0"/>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAyCAAAAAAGxrYLAAAAAmJLR0QA/4ePzL8AAAAZSURBVEiJ7cGBAAAAAMOg+VOf4AZVAQDwDQkuAAGJD0eGAAAAAElFTkSuQmCC" id="f" width="46" height="50" x="0" y="0"/>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAyCAIAAACsz36AAAAABmJLR0QA/wD/AP+gvaeTAAAAHUlEQVRYhe3BAQEAAACCIP+vbkhAAQAAAAAAwJsBGyYAAXhKLNMAAAAASUVORK5CYII=" id="x" width="46" height="50" x="0" y="0"/>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAoCAAAAABs530gAAAAAmJLR0QA/4ePzL8AAAAYSURBVEiJ7cEBAQAAAIIg/69uSEABAPBkCgAAAYlHOTwAAAAASUVORK5CYII=" id="g" width="63" height="40" x="0" y="0"/>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAoCAIAAADG7rWrAAAABmJLR0QA/wD/AP+gvaeTAAAAHklEQVRYhe3BMQEAAADCoPVPbQwfoAAAAAAAAAB4GB2wAAGT0oYrAAAAAElFTkSuQmCC" id="C" width="63" height="40" x="0" y="0"/>
+    <path id="n" d="M2.05-6.7q.15-.62.14-.86 0-.25-.16-.35Q1.88-8 1.5-8l.08-.32 1.47-.04h.34l-1 4.06.06.01q.57-.73 1.05-1.06.5-.34 1-.34.54 0 .84.33.3.31.3.85 0 .38-.17 1.05l-.38 1.55a4 4 0 0 0-.17.89q0 .24.08.34.07.12.25.11a.6.6 0 0 0 .36-.14q.2-.15.58-.55l.33.33q-.57.58-.93.82-.35.21-.8.21a.8.8 0 0 1-.62-.26 1 1 0 0 1-.22-.7q0-.38.2-1.13l.24-1q.15-.54.19-.81.04-.28.04-.44 0-.42-.14-.6-.12-.16-.43-.17a1 1 0 0 0-.53.2q-.3.21-.63.62a3.6 3.6 0 0 0-.8 1.67L1.55 0h-1Zm0 0"/>
+    <path id="D" d="M.3 0v-.37L3.36-8.1h.87L6.7-.37V0Zm1.04-.94h4.08L3.56-6.8Zm0 0"/>
+    <path id="p" d="M2.22.06q-.88 0-1.33-.5Q.44-.96.44-1.95q0-.7.23-1.16a1.7 1.7 0 0 1 1.61-.94q.9 0 1.35.52.45.51.45 1.48 0 .7-.24 1.17-.21.48-.64.7a2 2 0 0 1-.98.24m-1-2.1q0 .85.26 1.32.3.45.8.45.27 0 .45-.12.21-.14.33-.36.12-.24.17-.53a3.5 3.5 0 0 0-.07-1.66 1.2 1.2 0 0 0-.36-.6 1 1 0 0 0-.53-.18q-.5 0-.79.44-.27.44-.26 1.25m0 0"/>
+    <path id="u" d="M2.7 0v-.2q.27-.08.35-.2.1-.15.1-.52v-2.72h-.9q-.15 1.41-.4 2.31-.26.9-.54 1.14A1 1 0 0 1 .7.06Q.36.06.16 0v-.9h.36q.02.36.26.35.37 0 .64-1.03.28-1.05.28-1.64 0-.5-.39-.55v-.2H4.3v.2q-.27.06-.36.2t-.08.5v2.15q0 .36.08.5t.36.22V0Zm0 0"/>
+    <path id="z" d="M4.06 1.34a6 6 0 0 0-.18-.86 1 1 0 0 0-.24-.37Q3.5 0 3.16 0H1.39a.7.7 0 0 0-.56.25 3 3 0 0 0-.3 1.1H.16v-1.7h.48a5 5 0 0 0 .94-2.9q0-.46-.38-.52v-.2h3.08v.2q-.27.06-.36.2-.1.14-.1.5v2.71h.63v1.7Zm-.95-4.98h-1a7 7 0 0 1-.94 3.28h1.94Zm0 0"/>
+    <path id="k" d="M1.44.5q-.12.14-.19.27a1 1 0 0 0-.14.55q0 .44.31.63.3.2.96.2.71 0 1.15-.32T4.28.8q.3-.72.61-2.2h-.08q-.58.78-1.06 1.13A1.7 1.7 0 0 1 2.7.1q-.64 0-1-.48a2.3 2.3 0 0 1-.34-1.38q0-.99.39-1.92.39-.91 1.08-1.47a2.5 2.5 0 0 1 2.26-.45q.33.08.66.3l.53-.4.38.1-.6 2.74-.3 1.43Q5.54-.2 5.39.31T5 1.23a2.6 2.6 0 0 1-1.42 1.22q-.5.17-1.19.17-2.22 0-2.22-1.3 0-.32.2-.59t.65-.56ZM3.13-.6q.29 0 .59-.21t.62-.64q.35-.45.54-.86.18-.4.3-1 .15-.6.15-1.05t-.2-.67q-.19-.2-.65-.2-.6 0-1.07.48t-.75 1.31a5 5 0 0 0-.27 1.63q0 .6.17.9.19.3.56.3m0 0"/>
+    <path id="t" d="M1-1.83q0 .72.33 1.08.33.34 1.03.34.79 0 1.25-.43.45-.45.45-1.2 0-.37-.12-.63a2 2 0 0 0-.38-.53 6 6 0 0 0-.73-.58 5 5 0 0 1-.74-.56q-.28-.3-.45-.64-.16-.36-.16-.79 0-.7.33-1.21.33-.54.94-.82.61-.3 1.4-.3a6 6 0 0 1 2.02.33l-.33 1.5h-.56q-.01-.5-.16-.78a1 1 0 0 0-.35-.4 1.4 1.4 0 0 0-.64-.13q-.49 0-.86.2t-.57.55q-.18.33-.18.75 0 .45.23.78t.9.78q.55.4.85.7.3.33.45.68.14.34.14.81 0 .71-.34 1.28-.34.55-.97.85-.6.3-1.4.3Q1.83.1 1.2 0A7 7 0 0 1 .1-.22l.34-1.6Zm0 0"/>
+    <clipPath id="j">
+      <path d="M93 83h7v9.14h-7Zm0 0"/>
+    </clipPath>
+    <clipPath id="o">
+      <path d="M139 126h4.48v4.97H139Zm0 0"/>
+    </clipPath>
+    <clipPath id="q">
+      <path d="M143 127h.48v1H143Zm0 0"/>
+    </clipPath>
+    <clipPath id="v">
+      <path d="M78 89h.27v1H78Zm0 0"/>
+    </clipPath>
+    <clipPath id="y">
+      <path d="M120 87h5.98v7H120Zm0 0"/>
+    </clipPath>
+    <clipPath id="A">
+      <path d="M125 89h.98v1H125Zm0 0"/>
+    </clipPath>
+    <mask id="h">
+      <g filter="url(#a)">
+        <use xlink:href="#b" filter="url(#c)" transform="matrix(.36558 0 0 .36574 87.38 78)"/>
+      </g>
+    </mask>
+    <mask id="l">
+      <g filter="url(#a)">
+        <use xlink:href="#d" filter="url(#c)" transform="matrix(.3648 0 0 .35959 126.7 116.59)"/>
+      </g>
+    </mask>
+    <mask id="r">
+      <g filter="url(#a)">
+        <use xlink:href="#e" filter="url(#c)" transform="matrix(.3622 0 0 .36199 61.61 78)"/>
+      </g>
+    </mask>
+    <mask id="w">
+      <g filter="url(#a)">
+        <use xlink:href="#f" filter="url(#c)" transform="matrix(.3622 0 0 .36199 109.32 78)"/>
+      </g>
+    </mask>
+    <mask id="B">
+      <g filter="url(#a)">
+        <use xlink:href="#g" filter="url(#c)" transform="matrix(.3615 0 0 .35959 88.22 109.52)"/>
+      </g>
+    </mask>
+    <filter id="a" width="100%" height="100%" x="0%" y="0%">
+      <feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+    </filter>
+    <filter id="c" width="100%" height="100%" x="0%" y="0%">
+      <feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0.2126 0.7152 0.0722 0 0"/>
+    </filter>
+  </defs>
+  <path fill="#fff" fill-rule="evenodd" d="M58.78 180.63h84.76V75.16H58.78Zm0 0"/>
+  <path fill="none" stroke="#000" stroke-dasharray="2.99658 2.247435" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".75" d="M115.49 128.84H74.27"/>
+  <path fill="#bfbfbf" fill-rule="evenodd" d="M113.98 143.02h11.98v-37.36h-11.98Zm0 0"/>
+  <path fill="#7f7f7f" fill-rule="evenodd" d="M113.98 180.4h12v-37.38h-12Zm0 0"/>
+  <path fill="#7f7f7f" fill-rule="evenodd" d="M69.44 180.63h55.76v-8.3H69.44Zm0 0"/>
+  <path fill="#7f7f7f" fill-rule="evenodd" d="M68.26 179.96h7.19V128.5h-7.2Zm0 0"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" d="M125.98 180.34H68.26"/>
+  <g mask="url(#h)">
+    <use xlink:href="#i" transform="matrix(.36558 0 0 .36574 87.38 78)"/>
+  </g>
+  <g clip-path="url(#j)">
+    <use xlink:href="#k" x="93.04" y="89.4"/>
+  </g>
+  <use xlink:href="#G" x="100.59" y="89.4"/>
+  <path d="M90.25 76.82V98.6h-.75V76.82Zm-.37 21.77 2-2-2 6-2-6Zm0 0"/>
+  <g mask="url(#l)">
+    <use xlink:href="#m" transform="matrix(.3648 0 0 .35959 126.7 116.59)"/>
+  </g>
+  <use xlink:href="#n" x="132.35" y="127.87"/>
+  <g clip-path="url(#o)">
+    <use xlink:href="#p" x="138.94" y="130.27"/>
+  </g>
+  <g clip-path="url(#q)">
+    <use xlink:href="#G" x="143.98" y="127.87"/>
+  </g>
+  <g mask="url(#r)">
+    <use xlink:href="#s" transform="matrix(.3622 0 0 .36199 61.61 78)"/>
+  </g>
+  <use xlink:href="#t" x="67.27" y="89.28"/>
+  <use xlink:href="#u" x="73.14" y="91.68"/>
+  <g clip-path="url(#v)">
+    <use xlink:href="#G" x="78.29" y="89.28"/>
+  </g>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" d="M68.26 180.72V96.17m57.38 84.17v-84.5m-50.19 76.2V96.17m38.53 75.51V95.8m.32 76.24H74.92"/>
+  <path d="M130.23 107.99v33.69h-.75v-33.7Zm-.38 0-2 2 2-4 2 4Zm0 33.69 2-2-2 4-2-4Zm0 0"/>
+  <g mask="url(#w)">
+    <use xlink:href="#x" transform="matrix(.3622 0 0 .36199 109.32 78)"/>
+  </g>
+  <use xlink:href="#t" x="114.97" y="89.28"/>
+  <g clip-path="url(#y)">
+    <use xlink:href="#z" x="120.84" y="91.68"/>
+  </g>
+  <g clip-path="url(#A)">
+    <use xlink:href="#bE" x="126" y="89.28"/>
+  </g>
+  <path fill="none" stroke="#000" stroke-dasharray="2.99658 2.247435" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".75" d="M131.32 143.35H75.05"/>
+  <g mask="url(#B)">
+    <use xlink:href="#C" transform="matrix(.3615 0 0 .35959 88.22 109.52)"/>
+  </g>
+  <use xlink:href="#D" x="93.88" y="120.8"/>
+  <use xlink:href="#n" x="101.06" y="120.8"/>
+  <use xlink:href="#bH" x="107.9" y="120.8"/>
+  <path d="M110.29 107.99v19.19h-.75v-19.2Zm-.38 0-2 2 2-4 2 4Zm0 19.19 2-2-2 4-2-4Zm0 0"/>
+  <path fill="none" stroke="#000" stroke-dasharray="2.99658 2.247435" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".75" d="M131.3 105.99H75.08"/>
+</svg>
