@@ -283,6 +283,9 @@ function setupEventListeners() {
     document.getElementById('menu-btn').addEventListener('click', () => {
         document.getElementById('sidebar').classList.toggle('open');
     });
+    document.getElementById('menu-btn2').addEventListener('click', () => {
+        document.getElementById('sidebar').classList.toggle('open');
+    });
 }
 
 // 10. Filter file map for search
