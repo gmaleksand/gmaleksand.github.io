@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="595.32" height="841.92" viewBox="0 0 595.32 841.92">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="270" height="410" viewBox="0 0 270 410">
   <defs>
     <path id="I" d="m5.69-1.64-.16-.06c-.44.7-.56.78-1.14.8H1.53l2.02-2.12C4.6-4.14 5.08-5.05 5.08-5.98c0-1.2-.97-2.11-2.22-2.11a2.3 2.3 0 0 0-1.72.73c-.39.4-.56.8-.76 1.64l.25.06c.48-1.17.89-1.56 1.73-1.56 1.02 0 1.69.69 1.69 1.69 0 .95-.55 2.06-1.55 3.12L.36-.14V0h4.67Zm0 0"/>
     <path id="n" d="M3.4-.77q-.81.63-1.02.74-.33.15-.68.14-.56 0-.92-.38a1.4 1.4 0 0 1-.36-1q0-.38.19-.68.24-.38.83-.74.6-.36 1.97-.86v-.22q0-.8-.25-1.09-.26-.3-.74-.3a1 1 0 0 0-.6.2.6.6 0 0 0-.21.46l.01.33q0 .29-.14.42-.14.15-.35.14a.5.5 0 0 1-.36-.14.6.6 0 0 1-.15-.42q0-.5.52-.92t1.45-.43q.72 0 1.18.24.33.19.5.58.1.24.1 1.01v1.83q0 .76.04.94.03.18.09.23.06.07.16.06.09 0 .17-.04l.47-.42v.32q-.66.88-1.25.88a.6.6 0 0 1-.47-.2q-.16-.2-.17-.68m0-.39v-2.03q-.87.35-1.13.49-.46.27-.66.54-.2.3-.2.61 0 .43.25.7.25.3.57.29.46 0 1.18-.6m0 0"/>
@@ -30,13 +30,13 @@
     <path id="ac" d="m2.05-1.66 2.33-2.68q-.03-.45-.18-.63-.16-.16-.54-.19v-.21h2.5v.21q-.4 0-.54.08a1 1 0 0 0-.2.2q-.08.12-.08.77v2.84q0 .63.07.75.05.12.2.2.14.1.55.1V0h-2.6v-.22q.48 0 .64-.17t.17-.88V-3.8L2.06-1.1q0 .5.14.7.15.18.56.18V0H.27v-.22q.52 0 .67-.19.15-.18.14-.86V-4.1q0-.62-.06-.73a1 1 0 0 0-.2-.22q-.14-.1-.55-.1v-.21h2.6v.21q-.4 0-.54.08a1 1 0 0 0-.2.2q-.08.12-.08.77Zm0 0"/>
     <path id="af" d="M1.5-1.14q.28 0 .47.2t.19.46-.2.46a.66.66 0 0 1-.92 0 .7.7 0 0 1-.2-.46.64.64 0 0 1 .66-.66m0 0"/>
     <path id="ag" d="M1.84-3.97c.7 0 .99.03 1.25.14a1.8 1.8 0 0 1 1.22 1.78c0 1.02-.67 1.78-1.56 1.78-.33 0-.58-.07-1.02-.37-.35-.22-.56-.3-.76-.3-.27 0-.45.17-.45.42 0 .43.51.7 1.36.7.9 0 1.85-.32 2.43-.82.57-.48.86-1.19.86-1.98 0-.63-.19-1.2-.51-1.57-.27-.26-.49-.4-1-.62.8-.58 1.1-1.02 1.1-1.66 0-1-.74-1.66-1.87-1.66q-.9 0-1.56.6C.97-7.2.8-6.9.55-6.17l.17.04C1.2-7.01 1.75-7.4 2.5-7.4c.8 0 1.33.52 1.33 1.3 0 .42-.19.84-.49 1.16-.36.36-.7.54-1.51.83Zm0 0"/>
-    <pattern id="e" width="32" height="32" x="0" y="0" patternTransform="matrix(.99886 0 0 -.99886 0 831.5)" patternUnits="userSpaceOnUse" viewBox="0 0 32 32">
+    <pattern id="e" width="32" height="32" x="0" y="0" patternTransform="matrix(.99886 0 0 -.99886 0 431.5)" patternUnits="userSpaceOnUse" viewBox="0 0 32 32">
       <use xlink:href="#a"/>
     </pattern>
-    <pattern id="G" width="32" height="32" x="0" y="0" patternTransform="matrix(.99886 0 0 -.99886 0 831.5)" patternUnits="userSpaceOnUse" viewBox="0 0 32 32">
+    <pattern id="G" width="32" height="32" x="0" y="0" patternTransform="matrix(.99886 0 0 -.99886 0 431.5)" patternUnits="userSpaceOnUse" viewBox="0 0 32 32">
       <use xlink:href="#b"/>
     </pattern>
-    <pattern id="K" width="32" height="32" x="0" y="0" patternTransform="matrix(.99886 0 0 -.99886 0 831.5)" patternUnits="userSpaceOnUse" viewBox="0 0 32 32">
+    <pattern id="K" width="32" height="32" x="0" y="0" patternTransform="matrix(.99886 0 0 -.99886 0 431.5)" patternUnits="userSpaceOnUse" viewBox="0 0 32 32">
       <use xlink:href="#c"/>
     </pattern>
     <use xlink:href="#d" id="a" transform="matrix(1 0 0 -1 0 32)"/>
@@ -44,88 +44,88 @@
     <use xlink:href="#d" id="c" transform="matrix(1 0 0 -1 0 32)"/>
     <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAABmJLR0QA/wD/AP+gvaeTAAAAWUlEQVRIie2TMQ7AIAwD7fz/z2agQt2sonozU3SgY4iOACThdUju4RfOqB3ARO2S5tPrCz5R+/NBzg6AZ0ptO2vfF+2gHbSDdmB4O7C8HVjeDixvB55n7eQCgR+ANIzk7QYAAAAASUVORK5CYII=" id="d" width="32" height="32" x="0" y="0"/>
   </defs>
-  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" d="M338.26 509.24h191.88"/>
-  <path d="M429.47 470.84V544h-1.5v-73.16Zm-4.9 5.62 4.15-7.1 4.15 7.1a.75.75 0 1 1-1.3.75l-3.5-5.99h1.3l-3.5 6a.76.76 0 0 1-1.03.26.76.76 0 0 1-.27-1.02m8.3 61.93-4.15 7.1-4.15-7.1a.77.77 0 0 1 .27-1.03.76.76 0 0 1 1.04.26l3.5 6h-1.31l3.5-6a.76.76 0 0 1 1.03-.26c.36.2.47.67.27 1.03m0 0"/>
-  <path fill="url(#e)" fill-rule="evenodd" d="M367.5 545.94h5.08v-76.12h-5.09Zm0 0"/>
-  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" d="M372.6 469.82v76.12"/>
-  <use xlink:href="#g" x="347.79" y="555.6"/>
-  <use xlink:href="#h" x="353.79" y="555.6"/>
-  <use xlink:href="#i" x="358.7" y="555.6"/>
-  <use xlink:href="#k" x="364.68" y="555.6"/>
-  <use xlink:href="#m" x="370" y="555.6"/>
-  <use xlink:href="#n" x="376.1" y="555.6"/>
-  <use xlink:href="#i" x="381.35" y="555.6"/>
-  <use xlink:href="#g" x="387.34" y="555.6"/>
-  <use xlink:href="#i" x="416.02" y="554.64"/>
-  <use xlink:href="#k" x="422.01" y="554.64"/>
-  <use xlink:href="#o" x="427.29" y="554.64"/>
-  <use xlink:href="#n" x="436.52" y="554.64"/>
-  <use xlink:href="#p" x="491.54" y="551.04"/>
-  <use xlink:href="#q" x="501.01" y="551.04"/>
-  <use xlink:href="#h" x="507.47" y="551.04"/>
-  <use xlink:href="#r" x="512.38" y="551.04"/>
-  <use xlink:href="#s" x="515.38" y="551.04"/>
-  <path d="M375.59 481.04h50.32v.75H375.6Zm1 2.37-4-2 4-2Zm48.32-4 4 2-4 2Zm0 0"/>
-  <use xlink:href="#t" x="398.85" y="478.28"/>
-  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M476.5 508.71a1.8 1.8 0 1 1 3.59 0 1.8 1.8 0 0 1-3.59 0Zm0 0"/>
-  <use xlink:href="#w" x="447.55" y="476.49"/>
-  <use xlink:href="#x" x="457.74" y="476.49"/>
-  <use xlink:href="#z" x="469.96" y="476.49"/>
-  <use xlink:href="#A" x="475.36" y="502.74"/>
-  <path d="M431.72 481.04h43.94v.75h-43.94Zm1 2.37-4-2 4-2Zm41.94-4 4 2-4 2Zm0 0"/>
-  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" d="M340.41 602.87h191.74"/>
-  <path d="M431.55 564.48v73.16h-1.5v-73.16Zm-4.89 5.62 4.14-7.1 4.14 7.1c.21.35.1.81-.27 1.02a.73.73 0 0 1-1.01-.27l-3.5-6h1.29l-3.5 6a.74.74 0 0 1-1.02.27.74.74 0 0 1-.27-1.02m8.28 61.93-4.14 7.1-4.14-7.1a.75.75 0 1 1 1.3-.76l3.49 6h-1.29l3.5-6a.73.73 0 0 1 1.01-.27c.36.21.48.67.27 1.03m0 0"/>
-  <path fill="url(#G)" fill-rule="evenodd" d="M369.62 639.58h5.08v-76.12h-5.08Zm0 0"/>
-  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" d="M374.71 563.46v76.12"/>
-  <use xlink:href="#g" x="349.95" y="649.24"/>
-  <use xlink:href="#h" x="355.94" y="649.24"/>
-  <use xlink:href="#i" x="360.86" y="649.24"/>
-  <use xlink:href="#k" x="366.84" y="649.24"/>
-  <use xlink:href="#m" x="372.16" y="649.24"/>
-  <use xlink:href="#n" x="378.26" y="649.24"/>
-  <use xlink:href="#i" x="383.51" y="649.24"/>
-  <use xlink:href="#g" x="389.49" y="649.24"/>
-  <use xlink:href="#i" x="418.06" y="648.4"/>
-  <use xlink:href="#k" x="424.04" y="648.4"/>
-  <use xlink:href="#o" x="429.33" y="648.4"/>
-  <use xlink:href="#n" x="438.56" y="648.4"/>
-  <use xlink:href="#p" x="489.98" y="644.56"/>
-  <use xlink:href="#q" x="499.45" y="644.56"/>
-  <use xlink:href="#h" x="505.91" y="644.56"/>
-  <use xlink:href="#r" x="510.82" y="644.56"/>
-  <use xlink:href="#I" x="516.83" y="644.56"/>
-  <path d="M377.7 574.68H428v.74h-50.3Zm1 2.37-3.99-2 4-2Zm48.3-4 4 2-4 2Zm0 0"/>
-  <use xlink:href="#t" x="390.7" y="570.34"/>
-  <use xlink:href="#x" x="398.14" y="570.34"/>
-  <use xlink:href="#z" x="410.51" y="570.34"/>
-  <path d="M434 619.48h98.34v.75H434Zm1 2.37-4-2 4-2Zm-1-34.95h98.34v.75H434Zm1 2.37-4-2 4-2Zm0 0"/>
-  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" d="M340.41 711.06h191.74"/>
-  <path d="M431.55 672.67v73.15h-1.5v-73.15Zm-4.89 5.62 4.14-7.1 4.14 7.1c.21.35.1.8-.27 1.01a.73.73 0 0 1-1.01-.26l-3.5-6h1.29l-3.5 6a.74.74 0 0 1-1.02.26.74.74 0 0 1-.27-1.01m8.28 61.92-4.14 7.1-4.14-7.1a.75.75 0 0 1 .27-1.03.74.74 0 0 1 1.02.27l3.5 6h-1.29l3.5-6a.73.73 0 0 1 1.01-.27c.36.2.48.67.27 1.03m0 0"/>
-  <path fill="url(#K)" fill-rule="evenodd" d="M369.62 747.75h5.08v-76.1h-5.08Zm0 0"/>
-  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" d="M374.71 671.64v76.11"/>
-  <use xlink:href="#L" x="349.95" y="757.47"/>
-  <use xlink:href="#M" x="355.96" y="757.47"/>
-  <use xlink:href="#N" x="360.88" y="757.47"/>
-  <use xlink:href="#P" x="366.87" y="757.47"/>
-  <use xlink:href="#R" x="372.12" y="757.47"/>
-  <use xlink:href="#T" x="378.23" y="757.47"/>
-  <use xlink:href="#N" x="383.51" y="757.47"/>
-  <use xlink:href="#L" x="389.5" y="757.47"/>
-  <use xlink:href="#N" x="418.06" y="756.51"/>
-  <use xlink:href="#P" x="424.06" y="756.51"/>
-  <use xlink:href="#U" x="429.33" y="756.51"/>
-  <use xlink:href="#T" x="438.58" y="756.51"/>
-  <use xlink:href="#ab" x="489.98" y="752.8"/>
-  <use xlink:href="#ac" x="499.47" y="752.8"/>
-  <use xlink:href="#M" x="505.89" y="752.8"/>
-  <use xlink:href="#af" x="510.82" y="752.8"/>
-  <use xlink:href="#ag" x="516.83" y="752.8"/>
-  <path d="M377.7 682.86H428v.75h-50.3Zm1 2.38-3.99-2 4-2Zm48.3-4 4 2-4 2Zm0 0"/>
-  <use xlink:href="#t" x="385.67" y="673.93"/>
-  <use xlink:href="#x" x="393.22" y="673.93"/>
-  <use xlink:href="#ai" x="405.45" y="664.82"/>
-  <use xlink:href="#aj" x="405.45" y="681.96"/>
-  <path fill-rule="evenodd" d="M405.38 670.84h6.59V670h-6.6Zm0 0"/>
-  <use xlink:href="#z" x="414.11" y="673.93"/>
-  <path d="M434 727.66h98.34v.75H434Zm1 2.37-4-2 4-2Zm-1-34.95h98.34v.74H434Zm1 2.37-4-2 4-2Zm0 0"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" d="M38.26 109.24h191.88"/>
+  <path d="M129.47 70.84V144h-1.5v-73.16Zm-4.9 5.62 4.15-7.1 4.15 7.1a.75.75 0 1 1-1.3.75l-3.5-5.99h1.3l-3.5 6a.76.76 0 0 1-1.03.26.76.76 0 0 1-.27-1.02m8.3 61.93-4.15 7.1-4.15-7.1a.77.77 0 0 1 .27-1.03.76.76 0 0 1 1.04.26l3.5 6h-1.31l3.5-6a.76.76 0 0 1 1.03-.26c.36.2.47.67.27 1.03m0 0"/>
+  <path fill="url(#e)" fill-rule="evenodd" d="M67.5 145.94h5.08v-76.12h-5.09Zm0 0"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" d="M72.6 69.82v76.12"/>
+  <use xlink:href="#g" x="47.79" y="155.6"/>
+  <use xlink:href="#h" x="53.79" y="155.6"/>
+  <use xlink:href="#i" x="58.7" y="155.6"/>
+  <use xlink:href="#k" x="64.68" y="155.6"/>
+  <use xlink:href="#m" x="70" y="155.6"/>
+  <use xlink:href="#n" x="76.1" y="155.6"/>
+  <use xlink:href="#i" x="81.35" y="155.6"/>
+  <use xlink:href="#g" x="87.34" y="155.6"/>
+  <use xlink:href="#i" x="116.02" y="154.64"/>
+  <use xlink:href="#k" x="122.01" y="154.64"/>
+  <use xlink:href="#o" x="127.29" y="154.64"/>
+  <use xlink:href="#n" x="136.52" y="154.64"/>
+  <use xlink:href="#p" x="191.54" y="151.04"/>
+  <use xlink:href="#q" x="201.01" y="151.04"/>
+  <use xlink:href="#h" x="207.47" y="151.04"/>
+  <use xlink:href="#r" x="212.38" y="151.04"/>
+  <use xlink:href="#s" x="215.38" y="151.04"/>
+  <path d="M75.59 81.04h50.32v.75H75.6Zm1 2.37-4-2 4-2Zm48.32-4 4 2-4 2Zm0 0"/>
+  <use xlink:href="#t" x="98.85" y="78.28"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M176.5 108.71a1.8 1.8 0 1 1 3.59 0 1.8 1.8 0 0 1-3.59 0Zm0 0"/>
+  <use xlink:href="#w" x="147.55" y="76.49"/>
+  <use xlink:href="#x" x="157.74" y="76.49"/>
+  <use xlink:href="#z" x="169.96" y="76.49"/>
+  <use xlink:href="#A" x="175.36" y="102.74"/>
+  <path d="M131.72 81.04h43.94v.75h-43.94Zm1 2.37-4-2 4-2Zm41.94-4 4 2-4 2Zm0 0"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" d="M40.41 202.87h191.74"/>
+  <path d="M131.55 164.48v73.16h-1.5v-73.16Zm-4.89 5.62 4.14-7.1 4.14 7.1c.21.35.1.81-.27 1.02a.73.73 0 0 1-1.01-.27l-3.5-6h1.29l-3.5 6a.74.74 0 0 1-1.02.27.74.74 0 0 1-.27-1.02m8.28 61.93-4.14 7.1-4.14-7.1a.75.75 0 1 1 1.3-.76l3.49 6h-1.29l3.5-6a.73.73 0 0 1 1.01-.27c.36.21.48.67.27 1.03m0 0"/>
+  <path fill="url(#G)" fill-rule="evenodd" d="M69.62 239.58h5.08v-76.12h-5.08Zm0 0"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" d="M74.71 163.46v76.12"/>
+  <use xlink:href="#g" x="49.95" y="249.24"/>
+  <use xlink:href="#h" x="55.94" y="249.24"/>
+  <use xlink:href="#i" x="60.86" y="249.24"/>
+  <use xlink:href="#k" x="66.84" y="249.24"/>
+  <use xlink:href="#m" x="72.16" y="249.24"/>
+  <use xlink:href="#n" x="78.26" y="249.24"/>
+  <use xlink:href="#i" x="83.51" y="249.24"/>
+  <use xlink:href="#g" x="89.49" y="249.24"/>
+  <use xlink:href="#i" x="118.06" y="248.4"/>
+  <use xlink:href="#k" x="124.04" y="248.4"/>
+  <use xlink:href="#o" x="129.33" y="248.4"/>
+  <use xlink:href="#n" x="138.56" y="248.4"/>
+  <use xlink:href="#p" x="189.98" y="244.56"/>
+  <use xlink:href="#q" x="199.45" y="244.56"/>
+  <use xlink:href="#h" x="205.91" y="244.56"/>
+  <use xlink:href="#r" x="210.82" y="244.56"/>
+  <use xlink:href="#I" x="216.83" y="244.56"/>
+  <path d="M77.7 174.68H128v.74h-50.3Zm1 2.37-3.99-2 4-2Zm48.3-4 4 2-4 2Zm0 0"/>
+  <use xlink:href="#t" x="90.7" y="170.34"/>
+  <use xlink:href="#x" x="98.14" y="170.34"/>
+  <use xlink:href="#z" x="110.51" y="170.34"/>
+  <path d="M134 219.48h98.34v.75H134Zm1 2.37-4-2 4-2Zm-1-34.95h98.34v.75H134Zm1 2.37-4-2 4-2Zm0 0"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" d="M40.41 311.06h191.74"/>
+  <path d="M131.55 272.67v73.15h-1.5v-73.15Zm-4.89 5.62 4.14-7.1 4.14 7.1c.21.35.1.8-.27 1.01a.73.73 0 0 1-1.01-.26l-3.5-6h1.29l-3.5 6a.74.74 0 0 1-1.02.26.74.74 0 0 1-.27-1.01m8.28 61.92-4.14 7.1-4.14-7.1a.75.75 0 0 1 .27-1.03.74.74 0 0 1 1.02.27l3.5 6h-1.29l3.5-6a.73.73 0 0 1 1.01-.27c.36.2.48.67.27 1.03m0 0"/>
+  <path fill="url(#K)" fill-rule="evenodd" d="M69.62 347.75h5.08v-76.1h-5.08Zm0 0"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" d="M74.71 271.64v76.11"/>
+  <use xlink:href="#L" x="49.95" y="357.47"/>
+  <use xlink:href="#M" x="55.96" y="357.47"/>
+  <use xlink:href="#N" x="60.88" y="357.47"/>
+  <use xlink:href="#P" x="66.87" y="357.47"/>
+  <use xlink:href="#R" x="72.12" y="357.47"/>
+  <use xlink:href="#T" x="78.23" y="357.47"/>
+  <use xlink:href="#N" x="83.51" y="357.47"/>
+  <use xlink:href="#L" x="89.5" y="357.47"/>
+  <use xlink:href="#N" x="118.06" y="356.51"/>
+  <use xlink:href="#P" x="124.06" y="356.51"/>
+  <use xlink:href="#U" x="129.33" y="356.51"/>
+  <use xlink:href="#T" x="138.58" y="356.51"/>
+  <use xlink:href="#ab" x="189.98" y="352.8"/>
+  <use xlink:href="#ac" x="199.47" y="352.8"/>
+  <use xlink:href="#M" x="205.89" y="352.8"/>
+  <use xlink:href="#af" x="210.82" y="352.8"/>
+  <use xlink:href="#ag" x="216.83" y="352.8"/>
+  <path d="M77.7 282.86H128v.75h-50.3Zm1 2.38-3.99-2 4-2Zm48.3-4 4 2-4 2Zm0 0"/>
+  <use xlink:href="#t" x="85.67" y="273.93"/>
+  <use xlink:href="#x" x="93.22" y="273.93"/>
+  <use xlink:href="#ai" x="105.45" y="264.82"/>
+  <use xlink:href="#aj" x="105.45" y="281.96"/>
+  <path fill-rule="evenodd" d="M105.38 270.84h6.59V270h-6.6Zm0 0"/>
+  <use xlink:href="#z" x="114.11" y="273.93"/>
+  <path d="M134 327.66h98.34v.75H134Zm1 2.37-4-2 4-2Zm-1-34.95h98.34v.74H134Zm1 2.37-4-2 4-2Zm0 0"/>
 </svg>
