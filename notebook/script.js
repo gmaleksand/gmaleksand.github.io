@@ -54,7 +54,14 @@ function renderSidebar(files, container = null, level = 0, currentPath = '') {
         list.innerHTML = '';
     }
     
-    files.forEach(item => {
+    // Sort files naturally so 10 comes after 7
+    const sortedFiles = [...files].sort((a, b) => {
+        const nameA = typeof a === 'string' ? a : Object.keys(a)[0];
+        const nameB = typeof b === 'string' ? b : Object.keys(b)[0];
+        return nameA.localeCompare(nameB, undefined, { numeric: true, sensitivity: 'base' });
+    });
+
+    sortedFiles.forEach(item => {
         if (typeof item === 'string') {
             // It's a file
             const li = document.createElement('li');
