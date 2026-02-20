@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="595.44" height="841.92" viewBox="0 0 595.44 841.92">
+  <defs>
+    <clipPath id="a">
+      <path d="M409.48 154H443v80h-33.52Zm0 0"/>
+    </clipPath>
+    <clipPath id="b">
+      <path d="M409.48 153H444v82h-34.52Zm0 0"/>
+    </clipPath>
+    <clipPath id="c">
+      <path d="M480 154h34.34v81H480Zm0 0"/>
+    </clipPath>
+    <clipPath id="d">
+      <path d="M409.48 197H443v7h-33.52Zm0 0"/>
+    </clipPath>
+    <clipPath id="e">
+      <path d="M409.48 197H444v7h-34.52Zm0 0"/>
+    </clipPath>
+    <clipPath id="f">
+      <path d="M425 136.79h2V199h-2Zm0 0"/>
+    </clipPath>
+    <clipPath id="g">
+      <path d="M480 197h34.34v8H480Zm0 0"/>
+    </clipPath>
+    <path id="h" d="m4.75-.34-.02.15-.04.11q-.02.05-.05.06L4.56 0H1.11q-.05 0-.08-.02Q1-.02.97-.08l-.03-.1-.02-.16q0-.1.02-.16 0-.08.03-.1l.06-.07.08-.03h1.37v-5.07L1.2-5l-.15.08q-.07 0-.1-.03-.04-.03-.04-.11l-.02-.2v-.15q0-.06.03-.1t.05-.08l.08-.05 1.51-.99.06-.03.08-.01.1-.02h.15l.2.02.15.01.06.05.02.06V-.7h1.18q.05 0 .08.03l.06.06q.03.03.03.11zm0 0"/>
+    <path id="i" d="m4.73-.37-.01.17-.05.1-.06.08-.08.02H.88Q.79 0 .75-.02l-.1-.06-.06-.1L.58-.4v-.17q0-.08.05-.14l.06-.11.1-.13L2.07-2.3A9 9 0 0 0 3.2-3.83a3 3 0 0 0 .24-1.03q0-.24-.08-.42a1 1 0 0 0-.2-.34 1 1 0 0 0-.35-.24q-.2-.1-.47-.1-.31 0-.56.1a3 3 0 0 0-.73.38q-.13.07-.2.07l-.07-.01-.03-.06-.03-.13L.7-5.8v-.12l.03-.1.04-.07q0-.06.07-.1l.2-.14a3 3 0 0 1 1.48-.4q.48 0 .84.14.36.13.6.37.22.24.34.55t.12.65-.06.64q-.04.32-.24.7-.17.35-.51.8a15 15 0 0 1-.9 1.04L1.63-.75h2.9q.03 0 .07.03l.06.06.05.13zm0 0"/>
+  </defs>
+  <g clip-path="url(#a)">
+    <path fill="#fff" fill-rule="evenodd" d="M409.9 233.64h33.03v-79.23H409.9Zm0 0"/>
+  </g>
+  <g clip-path="url(#b)">
+    <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".96" d="M.48 14.86h37.8v90.6H.48Zm0 0" transform="matrix(.8737 0 0 -.87451 409.48 246.64)"/>
+  </g>
+  <path d="M430.45 185.2v-15.92h-.63v15.92Zm2.31-15.04-2.62-5.25-2.62 5.25Zm0 0"/>
+  <path fill="#fff" fill-rule="evenodd" d="M480.88 234.17h33.03v-79.23h-33.03Zm0 0"/>
+  <g clip-path="url(#c)">
+    <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".96" d="M81.72 14.27h37.8v90.6h-37.8Zm0 0" transform="matrix(.8737 0 0 -.87451 409.48 246.64)"/>
+  </g>
+  <path d="M500.18 160.4v15.91h-.63V160.4Zm2.3 15.04-2.62 5.24-2.62-5.24Zm0 0"/>
+  <path fill="#fff" fill-rule="evenodd" d="M482.46 158.2h29.56v-6.3h-29.56Zm-71.3.42h29.57v-6.3h-29.57Zm0 0"/>
+  <g clip-path="url(#d)">
+    <path fill="#7f7f7f" fill-rule="evenodd" d="M409.9 203.21h33.03v-5.77H409.9Zm0 0"/>
+  </g>
+  <g clip-path="url(#e)">
+    <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".96" d="M.48 49.67h37.8v6.6H.48Zm0 0" transform="matrix(.8737 0 0 -.87451 409.48 246.64)"/>
+  </g>
+  <g clip-path="url(#f)">
+    <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".96" d="M19.08 55.66v69.6" transform="matrix(.8737 0 0 -.87451 409.48 246.64)"/>
+  </g>
+  <path fill="#fff" fill-rule="evenodd" d="M417.77 204.47h3.14v-10.39h-3.14Zm0 0"/>
+  <path fill="#7f7f7f" fill-rule="evenodd" d="M480.88 203.74h33.03v-5.78h-33.03Zm0 0"/>
+  <g clip-path="url(#g)">
+    <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".96" d="M81.72 49.06h37.8v6.6h-37.8Zm0 0" transform="matrix(.8737 0 0 -.87451 409.48 246.64)"/>
+  </g>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".96" d="M100.32 55.07v69.59" transform="matrix(.8737 0 0 -.87451 409.48 246.64)"/>
+  <path fill="#fff" fill-rule="evenodd" d="M488.75 205h3.14v-10.4h-3.14Zm0 0"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".96" d="M90.12 48.1h6.7" transform="matrix(.8737 0 0 -.87451 409.48 246.64)"/>
+  <use xlink:href="#h" x="420.6" y="212.34"/>
+  <use xlink:href="#h" x="488.83" y="214.15"/>
+  <use xlink:href="#i" x="494.39" y="245.27"/>
+  <path fill="#fff" fill-rule="evenodd" d="M423.32 235.22h3.99v-9.76h-3.99Zm0 0"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".96" d="M14.88 14.03h7" transform="matrix(.8737 0 0 -.87451 409.48 246.64)"/>
+  <use xlink:href="#i" x="423.2" y="231.61"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".96" d="m9.36 49.79 2.1-5.5" transform="matrix(.8737 0 0 -.87451 409.48 246.64)"/>
+  <path fill="#fff" fill-rule="evenodd" d="M495.35 235.95h3.88v-9.75h-3.88Zm0 0"/>
+  <path fill="none" stroke="#000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".96" d="m96.84 14.62 5.5-5.2" transform="matrix(.8737 0 0 -.87451 409.48 246.64)"/>
+</svg>
